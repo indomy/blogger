@@ -1124,6 +1124,11 @@ li.hasSubmenu.isMega > ul{position: absolute;width: 100%;left:0px;right:0px;}
                 <div class='mobile-link-button goog-inline-block' id='mobile-share-button'>
                   <a href='javascript:void(0);'><data:shareMsg/></a>
                 </div>
+                </b:if>
+              <b:if cond='data:top.showDummy'>
+                <div class='goog-inline-block dummy-container'><data:post.dummyTag/></div>
+              </b:if>
+            </div>
 
 </body>
 
