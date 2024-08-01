@@ -881,6 +881,10 @@ body .single-content {
   padding-right: 0;
   box-shadow: none;
 }
+article.single .entry-title, .single-large-media .entry-title {
+  margin-top: -7px;
+  max-width: 670px;
+}
 
 //Html
 </head>
