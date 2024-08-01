@@ -656,6 +656,41 @@ select#BlogArchive1_ArchiveMenu{width:100%;padding:10px;}
 .contact-form-name:focus,.contact-form-email:focus,.contact-form-email-message:focus{border:0;box-shadow:none}
 .contact-form-name:hover,.contact-form-email:hover,.contact-form-email-message:hover{border:0}
 .contact-form-button-submit:hover{background-color:#303030;background-image:none;border:0}
+
+/* Follow By Email */
+.sidebar .FollowByEmail > h3.title,.sidebar .FollowByEmail .title-wrap{margin-bottom:0}
+#FollowByEmail1{clear:both}
+.FollowByEmail td{width:100%;float:left;box-sizing:border-box}
+.FollowByEmail .follow-by-email-inner .follow-by-email-submit{margin-left:0;width:100%;border-radius:0;height:30px;font-size:11px;color:#fff;background-color:$maincolor;font-family:'Nunito', sans-serif;text-transform:uppercase;font-weight:700;letter-spacing:1px}
+.FollowByEmail .follow-by-email-inner .follow-by-email-submit:hover{background-color:#000}
+.FollowByEmail .follow-by-email-inner .follow-by-email-address{padding-left:10px;height:30px;border:1px solid #FFF;margin-bottom:5px;box-sizing:border-box;font-size:11px;font-family:'Nunito', sans-serif;}
+.FollowByEmail .follow-by-email-inner .follow-by-email-address:focus{border:1px solid #FFF}
+.FollowByEmail .widget-content{box-sizing:border-box;padding:10px}
+.morpho-fcols-inner .FollowByEmail .widget-content{margin-top:10px}
+.widget.FollowByEmail .widget-content:before{content: "\f1d9";font-family: FontAwesome;width: 100%;display: inline-block;text-align: center;font-size:30px;padding: 5px 0px;color:#757575;}
+.FollowByEmail .widget-content .follow-by-email-inner:before {content: "Get the latest news in your inbox!";font-size: 14px;color: #757575;line-height: 1.4em;margin-bottom: 5px;display: block;padding: 0 2px;text-align: center;padding-bottom: 5px}
+.FollowByEmail .follow-by-email-inner .follow-by-email-address{border: 1px solid $(lightcolor) ;font-size:13px;box-sizing:border-box;margin-top:10px;}
+.FollowByEmail .follow-by-email-inner .follow-by-email-submit{background: $(lightcolor) ;color: #000;font-size:12px;font-weight: 400;margin-top:5px;}
+.FollowByEmail .follow-by-email-inner .follow-by-email-submit:hover{background: $maincolor;color: #fff;}
+.FollowByEmail .follow-by-email-inner .follow-by-email-address:focus{border: 1px solid $(lightcolor) ;}
+
+/* Recent Post Widget */
+.morpho-recent .morpho-recent-item{overflow:hidden;border-bottom:1px solid $(lightcolor);padding:10px 0}
+.morpho-recent .morpho-recent-item:first-child{padding-top:0}
+.morpho-recent .morpho-recent-item:last-child{border-bottom:none}
+.morpho-recent .morpho-recent-thumb{position:relative;float:left;margin:0!important;width:80px;height:60px;overflow:hidden;display:block;vertical-align:middle}
+.morpho-recent .morpho-recent-content{padding-left:10px;display:table-cell}
+.morpho-recent .morpho-recent-title{overflow:hidden;line-height:0;margin:0 0 2px;padding:0}
+.morpho-recent .morpho-recent-title a{color:$maincolor;font-weight:400;font-size:13px;line-height:1.5em}
+.morpho-recent .morpho-recent-title a:hover{color:$maincolor}
+.morpho-recent .morpho-recent-thumb:hover .morpho-trap{background-color:rgba(40,35,40,0.3)}
+
+/* Profile Widget */
+#morpho-footer #morpho-footer-cols .Profile a{color: #fff;background-image:none !important;padding: 0px !important;box-sizing: border-box}
+
+/*Featured Post*/
+.FeaturedPost.widget{padding: 0px;}
+
 //Html
 </head>
 <body expr:class='data:blog.pageType'>
