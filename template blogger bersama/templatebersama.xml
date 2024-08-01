@@ -736,6 +736,14 @@ select#BlogArchive1_ArchiveMenu{width:100%;padding:10px;}
 .cloud-label-widget-content .label-size .label-count{display:none}
 .list-label-widget-content li{display:block;padding:8px 0;border-bottom:1px solid #ececec;position:relative}
 .list-label-widget-content li a:before{content:'\203a';position:absolute;left:0;top:5px;font-size:22px;color:$maincolor}
+.morpho-fcols-inner .list-label-widget-content li a{color:#fff}
+.morpho-fcols-inner .list-label-widget-content li{border-top:0}
+.morpho-fcols-inner .list-label-widget-content li:last-child{border:0}
+.list-label-widget-content li a{color:#282828;font-size:14px;padding-left:20px;font-weight:400;text-transform:capitalize;font-family:'Nunito', sans-serif;letter-spacing:1.5px}
+.list-label-widget-content li span:last-child{color:#f6b2ca;font-size:12px;font-weight:700;position:absolute;top:9px;right:0}
+
+/* 404 */
+.error_page .padders button{height:50px;background:$(maincolor);color:#fff;border:none;position:absolute;border-radius:0;left:0px;border-top-left-radius:0px;border-bottom-left-radius:0px;float:left;font-size:20px;padding:12px 30px 10px;}
 
 //Html
 </head>
