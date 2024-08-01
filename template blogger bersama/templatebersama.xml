@@ -1779,7 +1779,21 @@ select#BlogArchive1_ArchiveMenu{width:100%;padding:10px;}
     <div class='author-img'> 
       <img alt='' class='avatar avatar-100 photo' expr:src='data:post.authorPhoto.url' height='100' width='100'/>
     </div>
-
+    <div class='author-content'>
+      <div class='top-author'>
+        <h5>
+          <a expr:href='data:post.authorUrl' rel='author' title='Posts by Diago'><data:post.author/>
+          </a>
+        </h5>
+      </div>
+      <p><span name='author-post'/>
+      </p>
+      <div class='content-social-author'> 
+        <span name='author-social'/>
+      </div>
+    </div>
+  </div>
+</div>
 
 
     
