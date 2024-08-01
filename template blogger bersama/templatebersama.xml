@@ -641,6 +641,13 @@ body.index #blog-pager, body.archive #blog-pager{background-color: $(lightcolor)
 /* Blog Archive */
 select#BlogArchive1_ArchiveMenu{width:100%;padding:10px;}
 .BlogArchive select{border:1px solid #f7f7f7 !important}
+
+/* Advertisement Widget */
+#morpho-advert-1 .widget,#morpho-advert-2 .widget,#morpho-advert-3 .widget{width:728px;max-height:90px;padding:0;max-width:100%;box-sizing:border-box;display:none}
+#morpho-advert-1 .widget{margin:15px auto 10px!important;display:block!important}
+#morpho-advert-2 .widget{margin:15px auto 0!important}
+#morpho-advert-1 .widget h2,#morpho-advert-2 .widget h2,#morpho-advert-3 .widget h2{display:none;visibility:hidden}
+.morpho-advertising{margin:10px 0 0}
 //Html
 </head>
 <body expr:class='data:blog.pageType'>
