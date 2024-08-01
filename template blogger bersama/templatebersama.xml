@@ -203,6 +203,10 @@ article{padding:0;overflow:hidden}
 .morpho-navigation{font-weight:400;margin:0 auto;height:60px;backgroun-color:#ff1769}
 ul#morpho_menu{list-style:none;margin:0;padding:0;}
 #morpho-menu .widget{display:none}
+#morpho-menu{height:60px;position:relative;text-align:center;z-index:15;margin:0 auto;padding-right:0px}
+.menu-wrap{margin:0 auto;position:relative}
+#morpho-menu ul > li{position:relative;vertical-align:middle;display:inline-block;padding:0;margin:0}
+#morpho-menu ul > li > a{color:#666;font-size:14px;font-weight:600;line-height:60px;display:inline-block;text-transform:uppercase;text-decoration:none;letter-spacing:1px;margin:0;padding:0 12px;font-family:'Nunito', sans-serif;font-weight:700;}
 
 
 
