@@ -430,6 +430,13 @@ div.morpho-empty{width: 100%;text-align:center;background:rgb(236,239,241);box-s
 .grid-item .article-content{padding: 0px 15px;margin-top:-15%;position: relative;box-sizing: border-box;}
 .grid-item .article-inwhite{background: #fff;box-sizing: border-box;padding: 10px 20px;}
 .grid-item.secondary{padding-top:20px}
+.morpho-article{margin-bottom: 30px;border-radius: 0px;position: relative;}
+.morpho-article .morpho-article-image{position: relative;display: inline-block;width:100%}
+.morpho-article .morpho-bgr{bottom: 0;left: 0;opacity: 0.7;position: absolute;right: 0;top: 0;-webkit-transition: 0.4s;-o-transition: 0.4s;transition: 0.4s;}
+.morpho-article .morpho-article-image .morpho-featured-wid{width: 100%;height:280px;display: block;background-size:cover !important;background-position: center center !important;}
+.morpho-article .morpho-post-image:hover .morpho-bgr{background: rgba(0, 0, 0, 0.5);opacity: 1;-webkit-transition: 0.4s;-o-transition: 0.4s;transition: 0.4s;}
+.morpho-article .share-links{opacity: 0;left: 0;margin-top: -15px;position:absolute;right: 0;top: 50%;-webkit-transition: 0.4s;-o-transition: 0.4s;transition: 0.4s;display: inline;text-align: center;}
+
 
 </head>
 <body expr:class='data:blog.pageType'>
