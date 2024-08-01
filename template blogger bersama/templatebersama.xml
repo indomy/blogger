@@ -864,6 +864,11 @@ margin-bottom: 15px;
 body.index #blog-pager, body.archive #blog-pager{
   border-radius: 10px;
 }
+.PopularPosts .item-thumbnail img{
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+}
 
 //Html
 </head>
