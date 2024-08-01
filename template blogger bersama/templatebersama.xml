@@ -2224,7 +2224,19 @@ $('.morpho-navigation').after(codei);
       }
     })();
 // ]]>
-    
+    </script>
+</b:includable>
+       <b:includable id='threaded_comments' var='post'>
+  <div class='comments' id='comments'>
+    <a name='comments'/>
+    <h4><data:post.commentLabelFull/>:</h4>
+
+    <div class='comments-content'>
+      <b:include cond='data:post.embedCommentForm' data='post' name='threaded_comment_js'/>
+      <div id='comment-holder'>
+         <data:post.commentHtml/>
+      </div>
+    </div>
 
 </body>
 
