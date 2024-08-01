@@ -127,6 +127,12 @@ article{padding:0;overflow:hidden}
 .morpho-social #social a{transition:.2s all ease-in-out;}
 .morpho-social #social a:hover{transition:.2s all ease-in-out;}
 .morpho-social #social a.facebook:hover{color:#3b5999;}
+.morpho-social #social a.twitter:hover{color:#55acee;}
+.morpho-social #social a.gplus:hover{color:#dd4b39;}
+.morpho-social #social a.youtube:hover{color:#cd201f;}
+.morpho-social #social a.pinterest:hover{color:#bd081c;}
+.morpho-social #social a.instagram:hover{color:#e4405f;}
+.morpho-social #social a.codepen:hover{color:#222;}
 
 
 </head>
