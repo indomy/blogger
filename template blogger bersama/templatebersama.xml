@@ -2981,6 +2981,18 @@ head.appendChild(script);
     <b:include cond='data:style == &quot;FLAT&quot;' data='data' name='flat'/>
     <b:include cond='data:style == &quot;MENU&quot;' data='data' name='menu'/>
   </div>
+    </div>
+  <!--b:include name='quickedit'/-->
+  </div>
+</b:includable>
+    <b:includable id='flat' var='data'>
+  <ul class='flat'>
+    <b:loop values='data:data' var='i'>
+      <li class='archivedate'>
+        <a expr:href='data:i.url'><data:i.name/></a> (<data:i.post-count/>)
+      </li>
+    </b:loop>
+  </ul>
 </body>
 
 </html>
