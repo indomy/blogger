@@ -1051,6 +1051,12 @@ padding:3px;
 .post-body a{
   margin-left: initial !important;
 }
+@media only screen and (max-width: 1200px) {
+.body-row{width:96%!important;margin:0 auto;float:none}
+.headerright,.morpho-wide{float:none;width:100%;text-align:center;height:auto;margin:0 auto;clear:both}
+.morpho-wide img{margin:auto;padding-bottom:15px}
+.headerright{margin:10px auto 0}
+}
 
 //Html
 </head>
