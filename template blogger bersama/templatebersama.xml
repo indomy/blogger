@@ -1584,7 +1584,15 @@ select#BlogArchive1_ArchiveMenu{width:100%;padding:10px;}
                  <a expr:href='data:post.url'><b:if cond='data:post.firstImageUrl'><img class='morpho-featured-wid' expr:src='data:post.firstImageUrl'/><b:else/><img class='morpho-featured-wid' src='https://4.bp.blogspot.com/-wPwjv7-YYGY/Wc98wlDT8qI/AAAAAAAAAEE/mH8YkPl8qJAH9FMuFKcShQvXXYMmVyrIgCLcBGAs/s1600/notfound.png'/></b:if></a>
 				</div>
 			 </div>
+             <span class='morpho-rgb'/>
+             <div class='morpho-article-content'>
+               <div class='article-content-inner'>
+                 <div class='entry-header clearfix'>
+                   <div class='morpho-head'>
+                     <h3 class='entry-title'><a expr:href='data:post.url' rel='bookmark'><data:post.title/></a></h3>
+					  <div class='article-meta clearfix'> 
 
+    
     
 
 </body>
