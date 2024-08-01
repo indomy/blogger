@@ -799,6 +799,9 @@ form input[type='text']:hover,#morpho-footer .contact-form-widget textarea:hover
 .morpho-list-media a img{
   border-radius: 10px;
 }
+.morpho-list-media,.morpho-post-share, .morpho-cell ul{
+  border-radius: 10px;
+}
 //Html
 </head>
 <body expr:class='data:blog.pageType'>
