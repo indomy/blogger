@@ -1004,6 +1004,7 @@ article.single .entry-title,.single-large-media .entry-title{margin-top:-7px;max
 .single-large-media .entry-cats a,article.single .entry-cats a{text-transform:uppercase;color:#151515}
 .single-large-media .tw-meta .entry-author a,article.single .tw-meta .entry-author a{color:#151515}
 .tw-meta .entry-author img{border-radius:5px;margin:0;position:absolute;left:0;top:50%;margin-top:-20px}
+.comment-count.tw-button{text-align:center;margin-left:auto}
 
 
 //Html
