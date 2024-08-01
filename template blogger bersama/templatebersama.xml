@@ -3048,8 +3048,7 @@ head.appendChild(script);
       <b:widget-setting name='showPostTitle'>true</b:widget-setting>
       <b:widget-setting name='postId'>6097113140773050121</b:widget-setting>
       <b:widget-setting name='showFirstImage'>true</b:widget-setting>
-      <b:widget-setting name='useMostRecentPost'>false</b:widget-setting>
-            
+      <b:widget-setting name='useMostRecentPost'>false</b:widget-setting>  
     </b:widget-settings>
 </body>
 
