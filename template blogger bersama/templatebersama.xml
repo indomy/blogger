@@ -917,6 +917,9 @@ article.single .tw-meta:not(.entry-tags) {
   margin: 0 0 40px -100px;
   text-align: left;
 }
+.entry-media > .tw-thumbnail {
+  max-width: 100%;
+}
 
 //Html
 </head>
