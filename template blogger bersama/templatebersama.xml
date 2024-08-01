@@ -580,7 +580,14 @@ div.morpho-empty{width: 100%;text-align:center;background:rgb(236,239,241);box-s
 .comments .comment-replybox-thread{margin:0}
 #comments ol li{list-style-type: none !important}
 #comments .comment .comment-block{padding: 5px 10px;box-sizing: border-box;position: relative}
-
+#comments .continue a{font-size: 10px;display: table;padding:2px 5px;display: inline-block;width: 100%;text-align: center;padding: 8px 0px;margin: 7px 0px;font-size:12px;border:1px solid #2942ee;color:#2942ee}
+#comments .continue a:hover{background-color: $maincolor;color:#fff}
+.comments .comment-actions{position: absolute;width: auto;right: 0px;top:10px;}
+.comments .comment-actions a{background: #fff !important;color:#000 !important;border: 1px solid $(lightcolor) !important;transition: 0s all ease-in-out !important;}
+.comments .comment-actions a:hover{background: $maincolor !important;color: #fff !important;border-color: $maincolor !important;transition: 0s all ease-in-out !important;}
+.comments .comments-content .comment-header{border-bottom: 0px !important;}
+.comments h4{border-bottom: 1px solid #f7f7f7;text-align: left;color: #2f2f33;font-weight: 500;font-size: 18px;}
+.comments h4:after{display: none;}
 
 
 //Html
