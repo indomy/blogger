@@ -2923,6 +2923,17 @@ head.appendChild(script);
                             <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
                             <b:if cond='data:showSnippets'>
                               <div class='item-snippet'><data:post.snippet/></div>
+                              </b:if>
+                          </div>
+                          <div style='clear: both;'/>
+                        </b:if>
+                      </li>
+                    </b:loop>
+                  </ul>
+                 <!--b:include name='quickedit'/-->
+                </div>
+              </b:includable>
+        </b:widget>
 </body>
 
 </html>
