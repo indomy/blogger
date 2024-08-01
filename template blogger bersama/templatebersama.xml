@@ -2997,6 +2997,9 @@ head.appendChild(script);
     <b:includable id='interval' var='intervalData'>
   <b:loop values='data:intervalData' var='interval'>
     <ul class='hierarchy'>
+      <li expr:class='&quot;archivedate &quot; + data:interval.expclass'>
+        <b:include cond='data:interval.toggleId' data='interval' name='toggle'/>
+        <a class='post-count-link' expr:href='data:interval.url'>
 </body>
 
 </html>
