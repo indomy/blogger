@@ -1981,6 +1981,13 @@ $('.morpho-navigation').after(codei);
             replyUrlParts = replybox.src.split('#');
           }
         }
+        if (replybox && (commentId !== replyParent)) {
+          replybox.src = '';
+          document.getElementById(domId).insertBefore(replybox, null);
+          replybox.src = replyUrlParts[0]
+              + (commentId ? '&parentID=' + commentId : '')
+              + '#' + replyUrlParts[1];
+          replyParent = commentId;
 
 </body>
 
