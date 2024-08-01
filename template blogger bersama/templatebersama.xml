@@ -3023,6 +3023,12 @@ head.appendChild(script);
     <b:loop values='data:posts' var='post'>
       <li><a expr:href='data:post.url'><data:post.title/></a></li>
     </b:loop>
+    </b:includable>
+    <b:includable id='toggle' var='interval'>
+  <a class='toggle' href='javascript:void(0)'>
+    <span expr:class='&quot;zippy&quot; + (data:interval.expclass == &quot;expanded&quot; ? &quot; toggle-open&quot; : &quot;&quot;)'>
+      <b:if cond='data:interval.expclass == &quot;expanded&quot;'>
+        &#9660;&#160;
 </body>
 
 </html>
