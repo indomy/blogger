@@ -1082,6 +1082,11 @@ social{float:none;width:100%;clear:both;overflow:hidden}
 .morphofeatured .morpho-hero{width:100%;float:none;padding-right:0;margin-bottom:10px}
 .mrph .morpho-featured .morpho-secondary .morphofeatured-thumb,.mrph .morpho-featured .morpho-secondary .morpho-thumb{height:500px}
 .post-home-image{float:none;width:100%;margin-bottom:20px;position:relative}
+.post-home-image .post-thumb a,.post-home-image .post-thumb,.post-home-image{height:250px}
+#meta-post{text-align:center}
+.index .post,.archive .post{text-align:center}
+.morpho-credit_copyright{text-align:center;display:block;clear:both}
+.morpho-post-share{display:none !important}
 //Html
 </head>
 <body expr:class='data:blog.pageType'>
