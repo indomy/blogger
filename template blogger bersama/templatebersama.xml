@@ -478,6 +478,9 @@ div.morpho-empty{width: 100%;text-align:center;background:rgb(236,239,241);box-s
 .morpho-right-share .share-links .social-item.facebook:hover {background: #263961}
 .morpho-right-share .share-links .count-share .social-item i {font-size: 10px;color: #fff;padding-right: 5px;}
 
+/* Post Bottom Ad */
+.morpho-advertising{box-sizing: border-box;padding: 10px 0px;text-align: center;margin:10px 0px;}
+
 
 //Html
 </head>
