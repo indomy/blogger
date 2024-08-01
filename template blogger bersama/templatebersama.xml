@@ -304,6 +304,11 @@ li.hasSubmenu.isMega > ul{position: absolute;width: 100%;left:0px;right:0px;}
 .morphofeatured .morpho-secondary .morpho-content .morphofeatured-title{overflow:hidden;line-height:0;margin:0 0 2px;padding:0}
 .morphofeatured .morpho-secondary .morpho-content .morphofeatured-title a{color:#fff;font-weight:400;font-size:13px;line-height:1.5em}
 .morpho-author{margin-right:10px}
+.morpho-author::before{content:'\f47d';font-family: "Ionicons";color:#bbb;margin-right:5px}
+.morpho-author,.morpho-time{color:#bdbdbd;font-size:12px;font-weight:400}
+.morpho-time:before{content: "\f402";font-family: "Ionicons";color:#bbb;margin-right:5px}
+.morpho-label a {border: 1px solid #fff;background: transparent;border-radius: 0px;padding: 3px 5px;position: relative;display: inline-block;text-transform: uppercase;color: #fff;font-size: 10px;position: relative;line-height: 11px;}
+.slidebg .morphofeatured .morpho-hero .morpho-hero-content .morphofeatured-title a{ font-size: 22px;line-height: 26px;font-weight: 600;padding: 10px 0px;}
 
 
 </head>
