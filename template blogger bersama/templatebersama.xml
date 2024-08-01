@@ -513,6 +513,14 @@
             <span class='comment-author'><data:post.authorLabel/> <data:backlink.author/></span>
             <span class='comment-timestamp'><data:post.timestampLabel/> <data:backlink.timestamp/></span>
           </dd>
+          </div>
+      </b:loop>
+    </dl>
+  </b:if>
+  <p class='comment-footer'>
+    <a class='comment-link' expr:href='data:post.createLinkUrl' expr:id='data:widget.instanceId + &quot;_backlinks-create-link&quot;' target='_blank'><data:post.createLinkLabel/></a>
+  </p>
+</b:includable>
 </body>
 
 </html>
