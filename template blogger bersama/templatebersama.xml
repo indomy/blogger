@@ -173,6 +173,13 @@ article{padding:0;overflow:hidden}
 .morpho-social #social a.stack-overflow:hover{color:#f57d00;}#e3dee0
 .morpho-social #social a.digg:hover{color:#131418;}
 .morpho-social #social a.delicious:hover{color:#0084ff;}
+.morpho-first-article img{width: 100%;}
+.morpho-social ul#social a:hover{color:$maincolor;opacity:1}
+.morpho-morpho-top-menu{float:left}
+.morpho-top-menu ul{overflow:hidden;list-style:none;padding:0;margin:0}
+.morpho-top-menu ul li{float:left;display:inline-block;list-style:none;padding:0}
+.morpho-top-menu ul li a{display:block;border:none!important;text-decoration:none;font-weight:400;text-transform:capitalize;font-family:'Nunito', sans-serif;}
+.morpho-top-menu ul li a:hover{color:#000}
 
 
 </head>
