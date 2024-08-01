@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+  <head>
+
+    <b:if cond='data:blog.pageType == &quot;index&quot;'>
+    <title><data:blog.pageTitle/></title>
+    <b:else/>
+    <b:if cond='data:blog.pageType != &quot;error_page&quot;'>
+    <title><data:blog.pageName/> - <data:blog.title/></title>
+    </b:if></b:if>
+    <b:if cond='data:blog.pageType == &quot;error_page&quot;'>
+    <title>Page Not Found - <data:blog.title/></title>
+    </b:if>
+
+	<!--META-->
+	<meta charset='utf-8'/>
+	<meta content='width' name='MobileOptimized'/>
+	<meta content='true' name='HandheldFriendly'/>
+	<meta content='yes' name='apple-mobile-web-app-capable'/>
+	<meta content='index,nofollow' name='robots'/>
+	<meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
+
+	<!-- Blogger main head data and meta -->
+    <b:include data='blog' name='all-head-content'/>
+
+    <link crossorigin='anonymous' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css' integrity='sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb' rel='stylesheet'/>
+
+</head>
+<body expr:class='data:blog.pageType'>
+<div class='searchform-wrap search-transition-wrap'>
+  <div class='search-transition-inner'>
+    <form action='/search' class='searchform' method='get'>
+      <div class='input-group'> 
+        <input class='form-control' name='q' placeholder='Search ... ' type='text' value=''/> 
+        <span class='input-group-btn'> <button class='btn btn-primary'><i class='ti-search'/></button> </span></div>
+    </form>                                
+    <button class='btn-mini-close pull-right'><i class='ion-ios-close-empty'/></button>
+  </div>
+</div>
+
+</body>
+
+</html>
