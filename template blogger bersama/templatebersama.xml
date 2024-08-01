@@ -438,6 +438,41 @@
          <b:widget-setting name='showReactions'>false</b:widget-setting>
        </b:widget-settings>
        <b:includable id='main' var='top'>
+       <b:if cond='!data:mobile'>
+    <!-- posts -->
+    <div class='blog-posts hfeed row'>
+
+      <b:include data='top' name='status-message'/>
+
+
+      <b:if cond='data:blog.url == data:blog.homepageUrl'><div class='custwid col-md-12'><div class='widget'><h2>Latest News</h2></div></div></b:if>
+
+<b:if cond='data:numPosts == 0'>
+        <div class='morpho-widget gallery'><div class='morpho-empty'><div class='morpho-no-post'><div class='morpho-entry-no-icon'><img alt='morpho-empty' class='morpho-empty' src='https://4.bp.blogspot.com/-wPwjv7-YYGY/Wc98wlDT8qI/AAAAAAAAAEE/mH8YkPl8qJAH9FMuFKcShQvXXYMmVyrIgCLcBGAs/s1600/notfound.png'/></div><div class='morpho-no-title'><h3 class='morpho-postmatch'>No posts found.</h3></div></div></div></div>
+      </b:if>
+
+      <b:loop values='data:posts' var='post'>
+        <b:if cond='data:blog.pageType in {&quot;static_page&quot;,&quot;item&quot;}'>
+          &lt;div class=&#39;post-item col-md-12&#39;&gt;
+          <b:else/>
+        <b:if cond='data:post.isFirstPost'>
+          <b:if cond='data:blog.url == data:blog.homepageUrl'>
+            &lt;div class=&#39;grid-item col-md-12&#39;&gt;
+            <b:else/>         
+            &lt;div class=&#39;grid-item secondary col-md-6&#39;&gt;
+          </b:if>
+
+          <b:else/>
+          &lt;div class=&#39;grid-item secondary col-md-6&#39;&gt;
+        </b:if>
+        </b:if>
+          <b:include data='post' name='post'/>
+          <b:include cond='data:blog.pageType in {&quot;static_page&quot;,&quot;item&quot;}' data='post' name='comment_picker'/>
+        &lt;/div&gt;
+
+      </b:loop>
+      
+    </div>
 </body>
 
 </html>
