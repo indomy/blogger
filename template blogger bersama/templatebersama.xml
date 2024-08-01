@@ -236,6 +236,12 @@ morpho-menu ul > li > ul > li a{font-size:14px;line-height:22px;display:block;co
   border-left: 0px;
   box-shadow: rgba(0,0,0,.15) 0 7px 25px;
 }
+/* Mega Menu */
+li.hasSubmenu.isMega{position: static !important}
+li.hasSubmenu.isMega > ul{position: absolute;width: 100%;left:0px;right:0px;}
+.morpho-mega-item .morpho-m-thumb{display: block;height: 150px;background-size:cover !important;background-position:center center !important;}
+.isMega.hasSubmenu .mega-inner{padding: 20px;position:relative;margin:0px;}
+#morpho-menu ul > li.isMega.hasSubmenu .morpho-text a{padding: 8px 0px !important;font-weight: 500;font-family: Nunito;text-transform: initial;color: #000;text-align:center;display: inline-block;width: 100%;}
 
 
 
