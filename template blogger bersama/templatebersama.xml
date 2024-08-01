@@ -2725,7 +2725,10 @@ head.appendChild(script);
     <data:adCode/>
     <b:include name='quickedit'/>
   </div>
-  
+</b:includable>
+      </b:widget>
+      <b:widget id='AdSense2' locked='false' title='' type='AdSense'>
+        <b:includable id='main'>  
 
 </body>
 
