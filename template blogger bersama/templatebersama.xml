@@ -1001,6 +1001,7 @@ article.single{
 article.single .entry-title,.single-large-media .entry-title{margin-top:-7px;max-width:670px}
 .single-media-content .tw-meta,.single-large-media .tw-meta,article.single .tw-meta:not(.entry-tags){position:relative;margin-bottom:50px;max-width:670px;padding-left:60px;min-height:40px;display:flex;align-items:center;flex-wrap:wrap}
 .single-media-content .tw-meta,.single-large-media.fullwidth-content .entry-title,.single-large-media.fullwidth-content .tw-meta{max-width:none}
+.single-large-media .entry-cats a,article.single .entry-cats a{text-transform:uppercase;color:#151515}
 
 
 //Html
