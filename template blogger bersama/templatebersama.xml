@@ -2950,6 +2950,11 @@ head.appendChild(script);
     <data:content/>
   </div>
 
+ <!--b:include name='quickedit'/-->
+</b:includable>
+    </b:widget>
+  </b:section>
+     </div>
 </body>
 
 </html>
