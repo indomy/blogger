@@ -1112,6 +1112,10 @@ body .single-content{
 .morpho-article .article-content,.morpho-article .morpho-article-image{width: 100%; float: none;}
 @media only screen and (max-width:520px){
   .morphofeatured .morpho-hero .morphofeatured-thumb, .morphofeatured .blsm-img,.mrph .morpho-featured .morpho-secondary .morphofeatured-thumb, .mrph .morpho-featured .morpho-secondary .morpho-thumb{height: 300px !important;}
+  .postmarg h3{font-size: 24px;line-height:28px;}
+  .postmarg {padding: 20px 0px !important;}
+  .morpho-left-tags,.morpho-right-share{float: none;width: 100%;margin: 8px 0px;}
+  .morpho-post-author .post-author .author-img{padding-right: 0;text-align: center;}
 //Html
 </head>
 <body expr:class='data:blog.pageType'>
