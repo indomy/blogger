@@ -2753,6 +2753,13 @@ head.appendChild(script);
         </b:loop>
       </select>
       <span class='pagelist-arrow'>&amp;#9660;</span>
+    <b:else/>
+      <ul>
+        <b:loop values='data:links' var='link'>
+
+
+
+
 
 </body>
 
