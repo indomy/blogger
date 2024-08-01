@@ -409,6 +409,13 @@ div.morpho-empty{width: 100%;text-align:center;background:rgb(236,239,241);box-s
 #customwidget .morpho-widget.list .morpho-widget-col-1 .morpho-parentover .morpho-post-share ul{filter:blur(20px);transition:.6s all ease;}
 #customwidget .morpho-widget.list .morpho-widget-col-1 .morpho-parentover:hover .morpho-post-share ul{filter:blur(0px)}
 
+/* Latest Posts [First] */
+.morpho-first-article{margin-top:20px;position:relative;}
+.morpho-first-article .morpho-article-image{position: relative;}
+.morpho-first-article .morpho-article-image:after{content:"";position: absolute;top:0px;bottom:0px;left:0px;right:0px;
+ background: rgba(0, 0, 0, 0) linear-gradient(to bottom, transparent 0%, transparent 0%, rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.1) 100%) repeat scroll 0 0;border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;}
+
 </head>
 <body expr:class='data:blog.pageType'>
 <div class='searchform-wrap search-transition-wrap'>
