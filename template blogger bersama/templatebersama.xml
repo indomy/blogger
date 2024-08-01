@@ -450,6 +450,10 @@ div.morpho-empty{width: 100%;text-align:center;background:rgb(236,239,241);box-s
 .morpho-article .article-meta, .morpho-article .article-meta a{color: #8e8e95;line-height: 24px;font-weight: 400;}
 .morpho-article .article-meta a{font-size:12px;}
 .morpho-article .article-meta i{font-size: 15px;}
+.morpho-article .entry-content{font-size: 14px;line-height: 24px;color: #8e8e95; padding-top:10px;}
+.morpho-article a.btn-read{background: transparent;border: 1px solid $(lightcolor);display: inline-block;right: 20px;padding: 10px 20px 9px;margin-top: 20px;margin-bottom: 10px;font-size: 12px;color: #2f2f33;text-transform: uppercase;}
+.morpho-article a.btn-read:hover{background: $maincolor;color: white;border: 1px solid $maincolor;}
+.morpho-article .entry-title a:hover{color:$maincolor}
 
 
 </head>
