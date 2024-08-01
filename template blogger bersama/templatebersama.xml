@@ -198,6 +198,12 @@ article{padding:0;overflow:hidden}
 /*Select Nav*/
 .selectnav{display:none}
 
+/*Nav Menu*/
+#morpho-menu{border-top: 1px solid #f7f7f7;border-bottom: 1px solid #f7f7f7;}
+.morpho-navigation{font-weight:400;margin:0 auto;height:60px;backgroun-color:#ff1769}
+ul#morpho_menu{list-style:none;margin:0;padding:0;}
+#morpho-menu .widget{display:none}
+
 
 
 
