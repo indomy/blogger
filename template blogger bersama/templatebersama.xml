@@ -2969,6 +2969,11 @@ head.appendChild(script);
       <b:widget-setting name='chronological'>false</b:widget-setting>
       <b:widget-setting name='showPosts'>false</b:widget-setting>
       <b:widget-setting name='frequency'>MONTHLY</b:widget-setting>
+      </b:widget-settings>
+    <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2><data:title/></h2>
+  </b:if>
 </body>
 
 </html>
