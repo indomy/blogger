@@ -869,6 +869,7 @@ body.index #blog-pager, body.archive #blog-pager{
   height: 100%;
   width: 100%;
 }
+.item-thumbnail:before{display: none !important;}
 
 //Html
 </head>
