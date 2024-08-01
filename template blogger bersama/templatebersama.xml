@@ -793,6 +793,9 @@ form input[type='text']:hover,#morpho-footer .contact-form-widget textarea:hover
 .morphofeatured-thumb{
   border-radius: 10px;
 }
+.morpho-label a{
+  border-radius: 5px;
+}
 //Html
 </head>
 <body expr:class='data:blog.pageType'>
