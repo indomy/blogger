@@ -381,6 +381,33 @@
 <!--ERROR PAGE-->
       </b:if>
 <div style='clear: both;'/>
+<div class='body-row' id='content-wrapper'>
+    <div id='main-wrapper'>
+      <div class='custwid' id='customwid'>
+		<b:section class='customwidgets' id='customwidget' name='Customized Widgets' preferred='no' showaddelement='yes'/>
+	  </div>
+
+<div id='ads-blog'>
+<b:section class='ad-top-widget' id='morpho-advert-2' maxwidgets='1' name='Post Page Advertisement [Top]' preferred='no' showaddelement='no'>
+  <b:widget id='HTML991' locked='true' title='Post Page Advertisement [Top]' type='HTML' version='1'>
+    <b:widget-settings>
+      <b:widget-setting name='content'><![CDATA[<a href="" target="_blank"><img style="width:100%;" src="https://2.bp.blogspot.com/-KB7QlE2yaQE/Wtjj4r0XnuI/AAAAAAAABOg/Iuqj_iOHlwEOMuLJx0H2usk6oQLIHoQqQCLcBGAs/s1600/BANNER.png"/></a>]]></b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <span>  <data:content/></span>
+  </div>
+
+  <!--b:include name='quickedit'/-->
+ </b:includable>
+  </b:widget>
+</b:section>
+<div style='clear: both;'/>
+      </div>
 </body>
 
 </html>
