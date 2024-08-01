@@ -2937,6 +2937,9 @@ head.appendChild(script);
          </b:section>
   <b:section class='sidebar morpho-widetize' id='tabside3' maxwidgets='1' name='Tab [3]' showaddelement='yes'>
     <b:widget id='HTML986' locked='false' title='Comments' type='HTML' version='1'>
+    <b:widget-settings>
+        <b:widget-setting name='content'><![CDATA[<span class="morpho-cmnt" data-no="5"></span>]]></b:widget-setting>
+      </b:widget-settings>
 </body>
 
 </html>
