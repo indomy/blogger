@@ -714,7 +714,16 @@ select#BlogArchive1_ArchiveMenu{width:100%;padding:10px;}
 .PopularPosts ul li a:hover{color:#a0d3db}
 .PopularPosts .item-title{margin:0 0 4px;padding:0;line-height:0}
 .item-snippet{display:none;font-size:0;padding-top:0}
-rpho-comment-thumb{width:55px;height:55px;float:left;margin:0 10px 0 0}
+.PopularPosts ul{counter-reset:popularcount;margin:0;padding:0}
+.PopularPosts .item-thumbnail::before{background:rgba(0,0,0,0.3);bottom:0;content:"";height:100px;width:100px;left:0;right:0;margin:0 auto;position:absolute;z-index:3}
+
+/* Comment Widget */
+.morpho-comments .morpho-comment .morpho-comment-profile{position:relative;overflow:hidden;padding:0;width:55px;height:55px;float:left;margin:0 10px 0 0}
+.morpho-comments .morpho-comment{background:none!important;clear:both;list-style:none;word-break:break-all;display:block;border-top:1px solid $(lightcolor);border-bottom:0!important;overflow:hidden;margin:0;padding:10px 0}
+.morpho-comments .morpho-comment:first-child{padding-top:0;border-top:0}
+.morpho-comments .morpho-comment:last-child{padding-bottom:0}
+.morpho-comments .morpho-comment span{color:#4b4b55;display:block;line-height:1.2em;text-transform:morpho-footercase;font-size:12px;font-weight:400;overflow:hidden;background:$(lightcolor);height:38px;margin-top:5px;box-sizing:border-box;padding:5px 8px}
+.morpho-comment-thumb{width:55px;height:55px;float:left;margin:0 10px 0 0}
 
 //Html
 </head>
