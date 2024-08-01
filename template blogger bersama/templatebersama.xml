@@ -638,7 +638,9 @@ body.index #blog-pager, body.archive #blog-pager{background-color: $(lightcolor)
 #tabside3{margin-bottom:15px}
 .morpho-sidebar-tabs .widget-content{padding:15px 0 0}
 
-
+/* Blog Archive */
+select#BlogArchive1_ArchiveMenu{width:100%;padding:10px;}
+.BlogArchive select{border:1px solid #f7f7f7 !important}
 //Html
 </head>
 <body expr:class='data:blog.pageType'>
