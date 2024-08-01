@@ -2413,6 +2413,14 @@ $('.morpho-navigation').after(codei);
       <b:widget-setting name='content'><![CDATA[<a href="http://www.blossomtheme.com" target="_blank"><img style="width:100%;" src="https://2.bp.blogspot.com/-KB7QlE2yaQE/Wtjj4r0XnuI/AAAAAAAABOg/Iuqj_iOHlwEOMuLJx0H2usk6oQLIHoQqQCLcBGAs/s1600/BANNER.png"/></a>]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <span>  <data:content/></span>
+  </div>
+
 
 </body>
 
