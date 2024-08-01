@@ -841,6 +841,11 @@ article{padding:0;overflow:hidden}
         </b:loop>
       </b:if>
     </div>  
+
+    <b:include name='mobile-nextprev'/>
+</b:includable>
+        <b:includable id='mobile-nextprev'>
+  <div class='blog-pager' id='blog-pager'>
 </body>
 
 </html>
