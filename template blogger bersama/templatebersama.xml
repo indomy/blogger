@@ -91,6 +91,11 @@ article{padding:0;overflow:hidden}
 /* Top Bar*/
 .morpho-top-menu ul li a{color:#666;font-size:12px;padding: 0 25px 0 0;line-height: 40px;}
 .morpho-top-wrapper{position:relative;min-height:40px;color:#aaa;margin:0 auto}
+.morpho-social{float:right;padding:5px 0}
+.morpho-social li{display:inline;padding:0;float:left;margin-right:5px}
+.morpho-social .widget ul{padding:0}
+.morpho-social .LinkList ul{text-align:center;margin:0 20px 0 0}
+
 </head>
 <body expr:class='data:blog.pageType'>
 <div class='searchform-wrap search-transition-wrap'>
