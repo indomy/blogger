@@ -1088,6 +1088,13 @@ social{float:none;width:100%;clear:both;overflow:hidden}
 .morpho-credit_copyright{text-align:center;display:block;clear:both}
 .morpho-post-share{display:none !important}
 .morphofeatured .morpho-hero .morphofeatured-thumb, .morphofeatured .blsm-img,.mrph .morpho-featured .morpho-secondary .morphofeatured-thumb, .mrph .morpho-featured .morpho-secondary .morpho-thumb{height: 350px !important;}
+body .single-content{
+    padding-left: 0px;
+  }
+  .entry-share.vertical{
+    display: none;
+  }
+}
 //Html
 </head>
 <body expr:class='data:blog.pageType'>
