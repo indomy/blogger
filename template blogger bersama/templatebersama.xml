@@ -968,6 +968,18 @@ article.single .tw-meta:not(.entry-tags) {
   font-size: 14px;
   margin-right: 10px;
 }
+.entry-share > a {
+  flex: 1;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  background: #2d609b;
+  text-align: center;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
 
 //Html
 </head>
