@@ -818,6 +818,12 @@ article{padding:0;overflow:hidden}
 
         <div style='clear: both;'/>
       </a>
+
+      <div class='mobile-index-comment'>
+        <b:include cond='data:blog.pageType != &quot;static_page&quot;                          and data:post.allowComments                          and data:post.numComments != 0' data='post' name='comment_count_picker'/>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
