@@ -949,6 +949,18 @@ article.single .tw-meta:not(.entry-tags) {
   transition: padding 0.2s;
   margin-bottom: 30px;
 }
+.entry-share.vertical {
+  display: block;
+  position: absolute;
+  top: 9px;
+  left: -100px;
+  width: 40px;
+}
+.entry-share.vertical > a {
+  width: 40px;
+  margin-right: 0;
+  margin-bottom: 10px;
+}
 
 //Html
 </head>
