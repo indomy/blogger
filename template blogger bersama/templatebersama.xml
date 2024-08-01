@@ -26,6 +26,16 @@
 
     <link crossorigin='anonymous' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css' integrity='sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb' rel='stylesheet'/>
 
+    <b:skin><![CDATA[
+	
+/* Variable definitions
+-----------------------
+<Group description="Main Settings" selector="body">
+<Variable name="maincolor" description="Main Color of theme" type="color"  default="#7b7b7b"  value="#7b7b7b"/>
+<Variable name="lightcolor" description="Light Color of theme" type="color"  default="#f7f7f7"  value="#f7f7f7"/>
+</Group>
+-----------------------
+*/
 </head>
 <body expr:class='data:blog.pageType'>
 <div class='searchform-wrap search-transition-wrap'>
