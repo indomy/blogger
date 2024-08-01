@@ -826,6 +826,9 @@ form input[type='text']:hover,#morpho-footer .contact-form-widget textarea:hover
   border-radius: 5px;
   color: #fff;
 }
+.morpho-widget.list .morpho-widget-col-2 .article-image div a{
+  border-radius: 10px;
+}
 //Html
 </head>
 <body expr:class='data:blog.pageType'>
