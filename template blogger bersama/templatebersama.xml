@@ -745,6 +745,12 @@ select#BlogArchive1_ArchiveMenu{width:100%;padding:10px;}
 /* 404 */
 .error_page .padders button{height:50px;background:$(maincolor);color:#fff;border:none;position:absolute;border-radius:0;left:0px;border-top-left-radius:0px;border-bottom-left-radius:0px;float:left;font-size:20px;padding:12px 30px 10px;}
 
+/* Message Top */
+.messager-text h1 a{float:right;font-size:14px;font-weight:400;line-height:16px;border:1px solid $(maincolor);padding:15px 20px;background:$(lightcolor);transition:0s all ease-in-out;}
+.messager-text h1 a:hover{background:$(maincolor);color:#fff;transition:0s all ease-in-out;}
+.status-msg-body{background: #fff;border:1px solid #ccc;padding:20px;box-sizing:border-box;}
+.status-msg-border{border:0px;}
+
 //Html
 </head>
 <body expr:class='data:blog.pageType'>
