@@ -1150,6 +1150,8 @@ li.hasSubmenu.isMega > ul{position: absolute;width: 100%;left:0px;right:0px;}
       </span>
     </b:if>
 
+    <a class='home-link' expr:href='data:blog.homepageUrl'><data:homeMsg/></a>
+
 </body>
 
 </html>
