@@ -2789,6 +2789,13 @@ head.appendChild(script);
     <data:content/>
   </div>
 
+ <!--b:include name='quickedit'/-->
+</b:includable>
+        </b:widget>
+      </b:section>
+      <b:section class='sidebar morpho-widetize' id='tabside2' maxwidgets='1' name='Tab [2]' showaddelement='yes'>
+        <b:widget id='PopularPosts1' locked='false' title='Popular' type='PopularPosts' version='1'>
+          <b:widget-settings>
 
 </body>
 
