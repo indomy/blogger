@@ -160,6 +160,12 @@ article{padding:0;overflow:hidden}
 .morpho-social #social a.wechat:before{content:"\f1d7";}
 .morpho-social #social a.wechat:hover{color:#09b83e;}
 .morpho-social #social a.vine:hover{color:#00b489;}
+.morpho-social #social a.slack:before{content:"\f198";}
+.morpho-social #social a.slack:hover{color:#3aaf85;}
+.morpho-social #social a.dribbble:hover{color:#ea4c89;}
+.morpho-social #social a.dribbble:hover{color:#ea4c89;}
+.morpho-social #social a.flickr:before{content:"\f16e";}
+.morpho-social #social a.flickr:hover{color:#ff0084;}
 
 
 </head>
