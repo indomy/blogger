@@ -3007,6 +3007,13 @@ head.appendChild(script);
         <b:include cond='data:interval.data' data='interval.data' name='interval'/>
         <b:include cond='data:interval.posts' data='interval.posts' name='posts'/>
       </li>
+          </ul>
+  </b:loop>
+</b:includable>
+    <b:includable id='menu' var='data'>
+  <select expr:id='data:widget.instanceId + &quot;_ArchiveMenu&quot;'>
+    <option value=''><data:title/></option>
+    <b:loop values='data:data' var='i'>
 </body>
 
 </html>
