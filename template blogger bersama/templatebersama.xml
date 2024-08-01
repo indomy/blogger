@@ -131,6 +131,10 @@
 </b:section>
 </div>
   </div>
+  &lt;div id=&quot;body-wrapper&quot; class=&quot;<data:blog.pageType/>
+  <b:if cond='data:blog.url == data:blog.homepageUrl'> home</b:if>
+  <b:if cond='data:blog.pageType == &quot;static_page&quot;'> item</b:if>
+  <b:if cond='data:blog.pageType == &quot;archive&quot;'> index</b:if>&quot;&gt;
 </body>
 
 </html>
