@@ -71,6 +71,9 @@ ul ul,ol ol{padding:0}
 .feed-links,.post-footer-line.post-footer-line-1,.post-footer-line.post-footer-line-2,.post-footer-line.post-footer-line-3{display:none}
 .item-control{display:none!important}
 h2.date-header,h4.date-header{display:none;margin:1.5em 0 .5em}
+h1,h2,h3,h4,h5,h6{font-family:'Nunito', sans-serif;font-weight:400;color:#2e2e2e}
+blockquote{padding: 20px 50px 20px 50px;background: $(lightcolor);border-left: 5px solid $maincolor;font-size:16px;margin:10px 0px;}
+img{max-width:100%;vertical-align:middle;border:0}
 </head>
 <body expr:class='data:blog.pageType'>
 <div class='searchform-wrap search-transition-wrap'>
