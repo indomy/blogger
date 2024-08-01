@@ -1025,6 +1025,8 @@ article.single .entry-title,.single-large-media .entry-title{margin-top:-7px;max
 .ext-share > a.linkedin{background-color:#0074a1}
 .ext-share > a.google{background-color:#eb4026}
 .entry-share.vertical{display:block;position:absolute;top:9px;left:-100px;width:40px}
+.entry-share.vertical .ext-share > a,.entry-share.vertical > a{width:40px;margin-right:0;margin-bottom:10px}
+.entry-share.vertical > a i{margin-right:0}
 //Html
 </head>
 <body expr:class='data:blog.pageType'>
