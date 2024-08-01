@@ -904,6 +904,15 @@ article.single .tw-meta:not(.entry-tags) {
 .tw-meta, .entry-cats, .tw-pagination a, .feature-area .feature-title > p {
   color: #999999;
 }
+.tw-meta .entry-author img {
+  border-radius: 5px;
+  margin: 0;
+  margin-top: 0px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -20px;
+}
 
 //Html
 </head>
