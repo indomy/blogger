@@ -856,6 +856,10 @@ article{padding:0;overflow:hidden}
         <div class='mobile-link-button' id='blog-pager-older-link'>
         <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle'>&amp;rsaquo;</a>
       </div>
+
+    <div class='mobile-link-button' id='blog-pager-home-link'>
+    <a class='home-link' expr:href='data:blog.homepageUrl'><data:homeMsg/></a>
+    </div>
     </b:if>
 </body>
 
