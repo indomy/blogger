@@ -1095,6 +1095,17 @@ body .single-content{
     display: none;
   }
 }
+@media only screen and (max-width: 768px) { 
+body .single-content{
+    padding-left: 0px;
+  }
+  .entry-share.vertical{
+    display: none;
+  }
+  .single-content .entry-media{
+    margin-left: 0px;
+  }
+}
 //Html
 </head>
 <body expr:class='data:blog.pageType'>
