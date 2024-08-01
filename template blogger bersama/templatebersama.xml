@@ -2750,7 +2750,9 @@ head.appendChild(script);
             <b:attr cond='data:link.isCurrentPage' name='selected' value='selected'/>
             <data:link.title/>
           </option>          
-
+        </b:loop>
+      </select>
+      <span class='pagelist-arrow'>&amp;#9660;</span>
 
 </body>
 
