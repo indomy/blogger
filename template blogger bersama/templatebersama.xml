@@ -589,6 +589,21 @@ div.morpho-empty{width: 100%;text-align:center;background:rgb(236,239,241);box-s
 .comments h4{border-bottom: 1px solid #f7f7f7;text-align: left;color: #2f2f33;font-weight: 500;font-size: 18px;}
 .comments h4:after{display: none;}
 
+/* comment tabs */
+.morpho-blogger-comment{display:block}
+.morpho-tabs .content-tab{background-color:transparent;padding:0}
+.morpho-tabs-header{margin-bottom:10px;position:relative}
+.morpho-tabs-header h3{display:inline-block;font-size:18px;margin:0;color:#010101;top:2px;font-weight:500;padding-bottom:2px}
+.morpho-tabs-header h3 h9{display:none}
+.morpho-tabs-header .morpho-tab-wrapper a{height:auto;line-height:1.2em;padding:8px 5px;display:block;text-align:center}
+.morpho-tabs-header .morpho-tab-wrapper li{float:left;width:33%;padding:0}
+.facebook-tab,.fb_iframe_widget_fluid span,.fb_iframe_widget iframe{width:100%!important}
+.morpho-tabs.simplyTab .content-tab{background-color:transparent;padding:0;margin-top:20px}
+.morpho-tabs.simplyTab .morpho-tab-wrapper li a{text-transform: uppercase;color: $(maincolor);font-weight: 500;font-size: 12px;border-bottom: 2px solid $(lightcolor);}
+.morpho-tabs.simplyTab .morpho-tab-wrapper li a.activeTab{border-bottom: 2px solid $(maincolor);}
+.morpho-tabs.simplyTab .morpho-tab-wrapper li{margin:0;list-style:none}
+.morpho-tab-wrapper{list-style:none}
+.content-tab{transition:all 0 ease;-webkit-transition:all 0 ease;-moz-transition:all 0 ease;-o-transition:all 0 ease}
 
 //Html
 </head>
