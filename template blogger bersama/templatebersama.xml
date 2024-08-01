@@ -309,7 +309,10 @@ li.hasSubmenu.isMega > ul{position: absolute;width: 100%;left:0px;right:0px;}
 .morpho-time:before{content: "\f402";font-family: "Ionicons";color:#bbb;margin-right:5px}
 .morpho-label a {border: 1px solid #fff;background: transparent;border-radius: 0px;padding: 3px 5px;position: relative;display: inline-block;text-transform: uppercase;color: #fff;font-size: 10px;position: relative;line-height: 11px;}
 .slidebg .morphofeatured .morpho-hero .morpho-hero-content .morphofeatured-title a{ font-size: 22px;line-height: 26px;font-weight: 600;padding: 10px 0px;}
-
+.slidebg .morphofeatured .morpho-hero .morpho-hero-content .morphofeatured-title a:hover,.morphofeatured .morpho-secondary .morpho-content .morphofeatured-title a:hover{color: $maincolor;}
+.morphofeatured .morpho-secondary .morpho-content .morphofeatured-title a{font-weight: 600;line-height: 22px;letter-spacing: 0;margin-top: 5px;font-size: 18px;}
+.morphofeatured .morpho-secondary .morpho-content .morphofeatured-title{margin: 10px 0px;}
+.morphofeatured h2{display: none;}
 
 </head>
 <body expr:class='data:blog.pageType'>
