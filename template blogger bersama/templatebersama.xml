@@ -1116,6 +1116,11 @@ body .single-content{
   .postmarg {padding: 20px 0px !important;}
   .morpho-left-tags,.morpho-right-share{float: none;width: 100%;margin: 8px 0px;}
   .morpho-post-author .post-author .author-img{padding-right: 0;text-align: center;}
+    .morpho-post-author .author-content{display: block;padding-left: 0;padding-top: 10px;text-align: center;vertical-align: middle;}
+  .morpho-post-author .content-social-author{display: block;text-align: center;width: 100%;}
+  .morpho-post-author .content-social-author ul{text-align: center;display: inline-block;}
+  .morpho-post-author .content-social-author > span{clear: both;}
+}
 //Html
 </head>
 <body expr:class='data:blog.pageType'>
