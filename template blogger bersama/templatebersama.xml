@@ -115,6 +115,11 @@ article{padding:0;overflow:hidden}
 .morpho-social .digg:before{content:"\f1a6"}
 .morpho-social .instagram:before{content:"\f16d"}
 .morpho-social .pinterest:before{content:"\f0d2"}
+.morpho-social .delicious:before{content:"\f1a5"}
+.morpho-social .codepen:before{content:"\f1cb"}
+.morpho-social .vimeo:before{content:"\f27d";}
+.morpho-social .wordpress:before{content:"\f19a";}
+.morpho-social .dropbox:before{content:"\f16b";}
 
 
 </head>
