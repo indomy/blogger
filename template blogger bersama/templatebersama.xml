@@ -295,6 +295,37 @@
 <b:if cond='data:blog.url != data:blog.homepageUrl'>
   <style>.feturepostwidgetmorpho{display:none}</style>
 </b:if>
+<div class='morpho-wrapper slidebg feturepostwidgetmorpho'>
+<div class='body-row midalizer'>
+<b:section class='morpho_featured_widget morpho-initiate' id='featured' maxwidget='1' name='Featured Grid Widget' preferred='no' showaddelement='no'>
+  <b:widget id='HTML998' locked='true' title='Featured Grid Widget' type='HTML' version='1'>
+    <b:widget-settings>
+      <b:widget-setting name='content'><![CDATA[<span data-type="morphofeatured" data-label="travel"></span>]]></b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  
+  <div class='widget-content'>
+
+	<b:if cond='data:content'>
+    <data:content/>
+      <b:else/>
+      <script>
+        //<![CDATA[
+        $(document).ready(function(){
+          $('.feturepostwidgetmorpho').remove();
+        });
+        //]]>
+      </script>
+    </b:if>
+  </div>
+
+  <!--b:include name='quickedit'/-->
+</b:includable>
+  </b:widget>
+</b:section>
+  </div>
+  </div>
+<div style='clear: both;'/>
 </body>
 
 </html>
