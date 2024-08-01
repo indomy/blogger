@@ -38,7 +38,99 @@
     <button class='btn-mini-close pull-right'><i class='ion-ios-close-empty'/></button>
   </div>
 </div>
+<div class='adminbar' style='display:none'>
+<div class='theme-opt'>
+    <b:section class='option' id='option' maxwidgets='1' name='Layout Setup' preferred='no' showaddelement='no'>
+      <b:widget id='HTML997' locked='true' title='Boxed Layout' type='HTML' version='1'>
+        <b:widget-settings>
+          <b:widget-setting name='content'>false</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+ <b:if cond='data:content == &quot;true&quot;'>
+          &lt;style&gt;@media only screen and (min-width:1143px){#body-wrapper{max-width:1220px;}}&lt;/style&gt;
+          </b:if>
+ <b:if cond='data:content == &quot;True&quot;'>
+          &lt;style&gt;@media only screen and (min-width:1143px){#body-wrapper{max-width:1220px;}}&lt;/style&gt;
+          </b:if>
+ <b:if cond='data:content == &quot;TRUE&quot;'>
+          &lt;style&gt;@media only screen and (min-width:1143px){#body-wrapper{max-width:1220px;}}&lt;/style&gt;
+          </b:if>
+        </b:includable>
+      </b:widget>
+    </b:section>
+<b:section class='naver-morpho' id='naver-morpho' maxwidgets='1' name='Navigation' preferred='no' showaddelement='no'>
+  <b:widget id='HTML996' locked='true' title='Posts Per Page' type='HTML' version='1'>
+    <b:widget-settings>
+      <b:widget-setting name='content'>6</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>  
+          <b:if cond='data:content == &quot;&quot;'>       
+            <script type='text/javascript'>
+              //<![CDATA[
+              var perPage = 6;
+              //]]>
+            </script>
+            <b:else/>
+            &lt;script type=&#39;text/javascript&#39;&gt;
+            //&lt;![CDATA[
+                var perPage = <data:content/>;
+            //]]&gt;
+            &lt;/script&gt;
+          </b:if>
+        </b:includable>
+  </b:widget>
+</b:section>
+ </div>
+  <div class='userinput'>
+<b:section class='post-author-widget' id='Postwidegt1' maxwidgets='1' name='Author Description' preferred='no' showaddelement='no'>
+  <b:widget id='HTML999' locked='true' title='Author Description' type='HTML' version='1'>
+    <b:widget-settings>
+      <b:widget-setting name='content'/>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
 
+  <!--b:include name='quickedit'/-->
+</b:includable>
+  </b:widget>
+</b:section>
+<b:section class='post-author-social' id='Postwidegt2' maxwidgets='1' name='Author Social Links' preferred='no' showaddelement='no'>
+  <b:widget id='LinkList999' locked='true' title='Author Social Links' type='LinkList' version='1'>
+    <b:widget-settings>
+      <b:widget-setting name='link-3'>https://twitter.com/ThemeDaddy</b:widget-setting>
+      <b:widget-setting name='sorting'>NONE</b:widget-setting>
+      <b:widget-setting name='link-4'>https://www.facebook.com/themedaddynet/</b:widget-setting>
+      <b:widget-setting name='text-1'><![CDATA[<i class="fa fa-vine"></i>]]></b:widget-setting>
+      <b:widget-setting name='link-1'>#</b:widget-setting>
+      <b:widget-setting name='text-0'><![CDATA[<i class="fa fa-instagram"></i>]]></b:widget-setting>
+      <b:widget-setting name='link-2'>#</b:widget-setting>
+      <b:widget-setting name='text-3'><![CDATA[<i class="fa fa-twitter"></i>]]></b:widget-setting>
+      <b:widget-setting name='link-0'>#</b:widget-setting>
+      <b:widget-setting name='text-2'><![CDATA[<i class="fa fa-google-plus"></i>]]></b:widget-setting>
+      <b:widget-setting name='text-4'><![CDATA[<i class="fa fa-facebook"></i>]]></b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+
+<b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
+ <div class='widget-content'>
+   <ul>
+     <b:loop values='data:links' var='link'>
+       <li><a expr:href='data:link.target'><data:link.name/></a></li>
+     </b:loop>
+   </ul>
+  <!--b:include name='quickedit'/-->
+ </div>
+</b:includable>
+  </b:widget>
+</b:section>
+</div>
+  </div>
 </body>
 
 </html>
