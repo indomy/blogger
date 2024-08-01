@@ -623,6 +623,16 @@ div.morpho-empty{width: 100%;text-align:center;background:rgb(236,239,241);box-s
 .displaypageNum a:hover, .showpage a:hover{background: transparent;color:$maincolor; border:0px;font-size:14px;}
 body.index #blog-pager, body.archive #blog-pager{background-color: $(lightcolor) ; padding:10px 0px;padding-bottom:14px;}
 
+/* sidebar */
+.sidebar .widget{margin-bottom:20px;position:relative}
+.sidebar ul,.sidebar li{list-style-type:none;margin:0;padding:0}
+.sidebar .widget-content{padding:10px 0}
+.morpho-sidebar-tab li a,.morpho-sidebar-tabs .section{transition:all 0 ease;-webkit-transition:all 0 ease;-moz-transition:all 0 ease;-o-transition:all 0 ease;-ms-transition:all 0 ease}
+.morpho-sidebar-tab{display:flex;clear:both;padding:0;margin:0}
+.morpho-sidebar-tabs .widget h2{display:none}
+.morpho-sidebar-tab li{width:33.3%;float:left;display:inline-block;padding:0;position:relative}
+
+
 
 //Html
 </head>
