@@ -1958,6 +1958,15 @@ $('.morpho-navigation').after(codei);
               && comment.author.name == config.authorName
               && comment.author.profileUrl == config.authorUrl;
           return matches ? 'true' : '';
+        } else if ('deletelink' == key) {
+          return config.baseUri + '/delete-comment.g?blogID='
+               + config.blogId + '&postID=' + comment.id;
+        } else if ('deleteclass' == key) {
+          return comment.deleteclass;
+        }
+        return '';
+      };
+
 
 </body>
 
