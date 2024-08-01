@@ -2462,6 +2462,9 @@ var _0x177b=['\x4a\x4d\x4f\x7a\x77\x36\x2f\x44\x6d\x38\x4f\x55','\x51\x42\x30\x4
   </b:includable>
 </b:widget>
 <b:widget id='HTML2' locked='false' title='Advertisement' type='HTML' version='1'>
+  <b:widget-settings>
+    <b:widget-setting name='content'><![CDATA[<a href="http://www.blossomtheme.com" target="_blank"><img style="width:100%;" src="https://4.bp.blogspot.com/-QD4BBaXgMlk/WtjlLaSndDI/AAAAAAAABO0/vZa6Wm-XCUk_eZv-ikRVZMQ_4zsZ-iI9QCLcBGAs/s1600/300.png"/></a>]]></b:widget-setting>
+  </b:widget-settings>
 
 
 </body>
