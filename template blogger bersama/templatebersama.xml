@@ -2781,7 +2781,9 @@ head.appendChild(script);
             <b:widget-setting name='content'><![CDATA[<span class="morpho-recent" data-no="5"></span>]]></b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
-
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
 
 
 
