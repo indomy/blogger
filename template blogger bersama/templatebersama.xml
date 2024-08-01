@@ -848,6 +848,9 @@ margin-bottom: 15px;
 .morpho-article-image .post-image a img{
   border-radius: 10px;
 }
+.morpho-mega-item  > div{ 
+  border-radius: 10px;
+}
 
 //Html
 </head>
