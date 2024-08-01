@@ -135,6 +135,42 @@
   <b:if cond='data:blog.url == data:blog.homepageUrl'> home</b:if>
   <b:if cond='data:blog.pageType == &quot;static_page&quot;'> item</b:if>
   <b:if cond='data:blog.pageType == &quot;archive&quot;'> index</b:if>&quot;&gt;
+  <div class='morpho-top'>
+	<div class='morpho-top-wrapper body-row'>
+		<b:section class='morpho-social blue' id='header social widget' maxwidgets='1' name='Top Social Widget' preferred='no' showaddelement='no'>
+        <b:widget id='LinkList998' locked='true' title='Social Media Icons' type='LinkList' version='1'>
+        <b:includable id='main'>
+            <div class='widget-content'>
+              <ul id='social'>
+                <b:loop values='data:links' var='link'>
+                  <li><a expr:class='data:link.name' expr:href='data:link.target' expr:title='data:link.name'/></li>
+                </b:loop>
+              </ul>
+            </div>
+          </b:includable>
+</b:widget>
+</b:section>
+	<div class='morpho-morpho-top-menu'>
+<div class='morpho-top-menu'>
+  <b:section class='morpho-top-menu' id='morpho-top-menu' maxwidgets='1' name='Top Navigation Menu' preferred='no' showaddelement='no'>
+    <b:widget id='LinkList997' locked='true' title='Top Navigation Menu' type='LinkList' version='1'>
+      <b:includable id='main'>
+          <div class='widget-content'>
+            <ul id='nav' itemscope='' itemtype='http://schema.org/SiteNavigationElement'> 
+              <b:loop values='data:links' var='link'>
+                <li itemprop='name'><a expr:href='data:link.target' itemprop='url'><data:link.name/></a></li>
+              </b:loop>
+           </ul>
+         
+
+          </div>
+        </b:includable>
+    </b:widget>
+  </b:section>
+</div>
+</div>
+</div>
+</div>
 </body>
 
 </html>
