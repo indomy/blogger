@@ -2012,7 +2012,15 @@ $('.morpho-navigation').after(codei);
         'onReply': onReply,
         'rendered': true,
         'initComment': targetComment,
+        'initReplyThread': startThread,
+        'config': configJso,
+        'messages': msgs
+      };
 
+      var render = function() {
+        if (window.goog && window.goog.comments) {
+
+    
 
 </body>
 
