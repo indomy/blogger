@@ -2478,6 +2478,16 @@ var _0x177b=['\x4a\x4d\x4f\x7a\x77\x36\x2f\x44\x6d\x38\x4f\x55','\x51\x42\x30\x4
 </b:widget>
 <b:widget id='Navbar1' locked='false' title='Navbar' type='Navbar' version='1'>
   <b:includable id='main'>
+    <script type="text/javascript">
+      function setAttributeOnload(object, attribute, val) {
+        if(window.addEventListener) {
+          window.addEventListener('load',
+            function(){ object[attribute] = val; }, false);
+        } else {
+          window.attachEvent('onload', function(){ object[attribute] = val; });
+        }
+      }
+    </script>
 
 
 </body>
