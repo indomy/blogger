@@ -810,6 +810,14 @@ article{padding:0;overflow:hidden}
               </div>
             </div>
           </b:if>
+
+          <div class='post-body'>
+            <b:if cond='data:post.snippet'><data:post.snippet/></b:if>
+          </div>
+        </div>
+
+        <div style='clear: both;'/>
+      </a>
 </body>
 
 </html>
