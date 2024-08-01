@@ -2765,7 +2765,10 @@ head.appendChild(script);
     </b:if>
     <b:include name='quickedit'/>
   </div>
-
+</b:includable>
+      </b:widget>
+    </b:section>
+<div style='clear: both;'/>
 
 
 </body>
