@@ -2771,7 +2771,8 @@ head.appendChild(script);
 <div style='clear: both;'/>
 <div class='morpho-sidebar-tabs' id='morpho-sidebar-tabs'>
       <ul class='morpho-sidebar-tab'>
-
+        <li class='item-1'><a href='#tabside1'/></li>
+        <li class='item-2'><a href='#tabside2'/></li>
 </body>
 
 </html>
