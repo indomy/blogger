@@ -2919,6 +2919,10 @@ head.appendChild(script);
                                 <img border='0' expr:alt='data:post.title' expr:height='data:thumbnailSize' expr:src='data:post.thumbnail' expr:width='data:thumbnailSize'/>
                                 </a>
                               </div>
+                              </b:if>
+                            <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
+                            <b:if cond='data:showSnippets'>
+                              <div class='item-snippet'><data:post.snippet/></div>
 </body>
 
 </html>
