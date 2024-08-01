@@ -876,6 +876,11 @@ body.index #blog-pager, body.archive #blog-pager{
 .morpho-comment span, #comment-holder .comment-content{
   border-radius: 7px;
 }
+body .single-content {
+  padding-left: 100px;
+  padding-right: 0;
+  box-shadow: none;
+}
 
 //Html
 </head>
