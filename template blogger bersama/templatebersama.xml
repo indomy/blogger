@@ -2388,7 +2388,11 @@ $('.morpho-navigation').after(codei);
          </div>  </b:if>
         </b:includable>
      </b:widget>
+     <b:widget id='HTML989' locked='true' title='Disqus Shortname' type='HTML' version='1'>
+       <b:widget-settings>
+         <b:widget-setting name='content'>theme-daddy</b:widget-setting>
+       </b:widget-settings>
+       <b:includable id='main'>
 
-</body>
 
 </html>
