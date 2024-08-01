@@ -861,6 +861,9 @@ margin-bottom: 15px;
   border-bottom-right-radius: 10px;
   background: #eee;
 }
+body.index #blog-pager, body.archive #blog-pager{
+  border-radius: 10px;
+}
 
 //Html
 </head>
