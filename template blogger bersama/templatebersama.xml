@@ -1121,6 +1121,10 @@ body .single-content{
   .morpho-post-author .content-social-author ul{text-align: center;display: inline-block;}
   .morpho-post-author .content-social-author > span{clear: both;}
 }
+@media only screen and (max-width: 480px) {
+.ticker .title,.tk-thumb,.ticker .post-tag{display:none}
+.index .post h2,.archive .post h2{line-height:34px;font-size:23px}
+h1.post-title{font-size:22px;margin-bottom:10px}
 //Html
 </head>
 <body expr:class='data:blog.pageType'>
