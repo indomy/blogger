@@ -1738,6 +1738,16 @@ select#BlogArchive1_ArchiveMenu{width:100%;padding:10px;}
 <div class='morpho-advertising'><a name='ad-post-bottom'/><div class='clearfix blockpad'/></div>
   <div class='clearfix'/>
 
+  <div class='post-footer'>
+    <div class='morpho-left-tags'>
+      <div class='tags-wrap'>
+       <b:if cond='data:top.showPostLabels and data:post.labels'><span class='tags-title'> Tags: </span>&lt;span class=&quot;tags&quot;&gt;<b:loop values='data:post.labels' var='label'><a expr:href='data:label.url' expr:title='&quot;View all posts in &quot; + data:label.name' rel='tag'><data:label.name/></a> <b:if cond='not data:label.isLast'>, </b:if><b:if cond='data:label.isLast'>&lt;/span&gt;</b:if></b:loop></b:if>
+	  </div>
+	</div>
+	<div class='morpho-right-share'>
+      <div class='social share-links clearfix'>
+			<div class='count-share'>
+
 
 </body>
 
