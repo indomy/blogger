@@ -2784,7 +2784,10 @@ head.appendChild(script);
   <!-- only display title if it's non-empty -->
   <b:if cond='data:title != &quot;&quot;'>
     <h2 class='title'><data:title/></h2>
-
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
 
 
 </body>
