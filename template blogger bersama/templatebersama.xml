@@ -999,7 +999,7 @@ article.single{
     background: #00c3f3;
 }
 article.single .entry-title,.single-large-media .entry-title{margin-top:-7px;max-width:670px}
-
+.single-media-content .tw-meta,.single-large-media .tw-meta,article.single .tw-meta:not(.entry-tags){position:relative;margin-bottom:50px;max-width:670px;padding-left:60px;min-height:40px;display:flex;align-items:center;flex-wrap:wrap}
 
 //Html
 </head>
