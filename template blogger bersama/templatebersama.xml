@@ -900,7 +900,14 @@ article{padding:0;overflow:hidden}
       <b:if cond='data:post.link'> 
         <a expr:href='data:post.link' itemprop='url'><data:post.title/></a> 
       <b:else/> 
-        <b:if cond='data:post.url'>                                               
+        <b:if cond='data:post.url'>   
+<a expr:href='data:post.url' itemprop='url'><data:post.title/></a> 
+<b:else/> 
+          <data:post.title/> 
+        </b:if> 
+      </b:if> 
+      </h2>
+<b:else/>                                                     
 </body>
 
 </html>
