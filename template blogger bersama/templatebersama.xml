@@ -941,6 +941,14 @@ article.single .tw-meta:not(.entry-tags) {
   position: relative;
   justify-content: flex-end;
 }
+.entry-share {
+  display: flex;
+  align-content: stretch;
+  position: relative;
+  overflow: hidden;
+  transition: padding 0.2s;
+  margin-bottom: 30px;
+}
 
 //Html
 </head>
