@@ -557,6 +557,13 @@ div.morpho-empty{width: 100%;text-align:center;background:rgb(236,239,241);box-s
 .comments .item-control{position:static}
 .comments .avatar-image-container{float:left;overflow:hidden;position:absolute}
 .comments .avatar-image-container,.comments .avatar-image-container img{height:45px;max-height:45px;width:45px;max-width:45px}
+.comments .comment-block{overflow:hidden;padding:0 0 10px}
+.comments .comment-block,.comments .comments-content .comment-replies{margin-left:60px;margin-top:0}
+.comments .comments-content .inline-thread{padding:0}
+.comments .comment-actions{float:left;width:100%;position:relative;margin:0}
+.comments .comments-content .comment-header{font-size:14px;display:block;overflow:hidden;clear:both;margin:0 0 3px;padding:0 0 5px;border-bottom:1px dotted $(lightcolor)}
+.comments .comments-content .user{font-style:normal;font-weight:500;display:block;font-size:16px}
+.comments .comments-content .icon.blog-author{display:none}
 
 
 
