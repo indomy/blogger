@@ -3040,6 +3040,10 @@ head.appendChild(script);
       </b:if>
     </span>
   </a>
+  </b:includable>
+  </b:widget>
+  <b:widget id='FeaturedPost1' locked='false' title='Featured Post' type='FeaturedPost'>
+    <b:widget-settings>
 </body>
 
 </html>
