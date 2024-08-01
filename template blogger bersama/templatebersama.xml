@@ -359,6 +359,11 @@ ol{padding-left: 20px;box-sizing:border-box;width:100%;}
 .morpho-box-inside{background: #fff;padding: 10px 20px;box-sizing: border-box;}
 .morpho-hero .blsm-img::after, .mrph .morpho-featured .morpho-secondary .morpho-thumb::after{content: "";position: absolute;top: 0px;bottom: 0px;left: 0px;right: 0px;background: rgba(0, 0, 0, 0) linear-gradient(to bottom, transparent 0%, transparent 0%, rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.1) 100%) repeat scroll 0 0;display: block;height: 100%;}
 .grid-item:hover .morpho-article .morpho-bgr{background: rgba(0, 0, 0, 0.5);opacity: 1;transition:.6s all ease;}
+.grid-item .post-cat{filter: blur(30px);opacity: 0;transition:.6s all ease;}
+.grid-item:hover .post-cat{opacity: 0;filter:blur(0px)}
+.morphofeatured .morpho-hero{width:60%;position:relative;float:left;padding-right:1.4%;box-sizing:border-box;overflow:hidden}
+.morphofeatured .morpho-featured-image{width:100%;position:relative;overflow:hidden}
+.morphofeatured .morpho-hero .morphofeatured-thumb,.morphofeatured .blsm-img{height:500px}
 
 </head>
 <body expr:class='data:blog.pageType'>
