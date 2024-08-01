@@ -607,6 +607,9 @@ div.morpho-empty{width: 100%;text-align:center;background:rgb(236,239,241);box-s
 
 /* Blog Pager */
 #blog-pager{clear:both;text-align:center;padding:15px 0;background:#fff;color:#4d4d4d}
+.displaypageNum a,.showpage a,.pagecurrent,.blog-pager-older-link,.blog-pager-newer-link{padding:5px 13px;margin-right:8px;color:#fff;background-color:$maincolor;border:1px solid #2d2d2d;display:inline-block;line-height:20px;-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;margin-top:10px}
+.displaypageNum a:hover,.showpage a:hover,.pagecurrent,.blog-pager-older-link:hover,.blog-pager-newer-link:hover{background:$maincolor;border:1px solid #1bcdda;text-decoration:none;color:#fff}
+.showpageOf{display:none!important;overflow:hidden}
 
 //Html
 </head>
