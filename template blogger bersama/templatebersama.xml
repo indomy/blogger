@@ -3035,6 +3035,11 @@ head.appendChild(script);
       <b:elseif cond='data:blog.languageDirection == &quot;rtl&quot;'/>
         &#9668;&#160;
       <b:else/>
+      
+        &#9658;&#160;
+      </b:if>
+    </span>
+  </a>
 </body>
 
 </html>
