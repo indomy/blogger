@@ -2331,6 +2331,17 @@ $('.morpho-navigation').after(codei);
                 <div data-tab='blogger'><div class='morpho-blogger-comment'/></div>
               </div>
             </b:if>
+            <b:if cond='data:content == &quot;[disqus][facebook]&quot;'>
+              <div class='morpho-tabs'>
+                <div data-tab='disqus'><div class='disqus-tab'><div id='disqus_thread'/></div></div>
+                <div data-tab='facebook'><div class='facebook-tab'/></div>
+              </div>
+              <script type='text/javascript'>
+              //<![CDATA[
+                $('#comments').remove();
+              //]]>
+              </script>
+            </b:if>
 
 </body>
 
