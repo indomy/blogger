@@ -55,6 +55,10 @@ blockquote,q{quotes:"" ""}
 sup{vertical-align:super;font-size:smaller}
 code{font-family:'Nunito', sans-serif;font-size:12px;color:#272727}
 a img{border:none}
+.post-body table {margin:10px 0px;}
+.post-body table td{border-collapse:collapse;border:1px solid #e6e6e6;margin-bottom:1.5em;text-align:center}
+.post-body table{border-collapse:collapse;border:1px solid #e6e6e6;margin-bottom:1.5em}
+.post-body td,th{border-top:1px solid #e6e6e6;vertical-align:top;padding:12px 20px}
 </head>
 <body expr:class='data:blog.pageType'>
 <div class='searchform-wrap search-transition-wrap'>
