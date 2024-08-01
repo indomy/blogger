@@ -884,6 +884,11 @@ article{padding:0;overflow:hidden}
           <a expr:name='data:post.id'/>
         <b:if cond='data:post.title'> 
                       <b:if cond='data:blog.pageType == &quot;index&quot;'>
+      <h2 class='post-title entry-title' itemprop='name'> 
+      <b:if cond='data:post.link'> 
+        <a expr:href='data:post.link' itemprop='url'><data:post.title/></a> 
+      <b:else/> 
+          <b:if cond='data:post.url'>                   
 </body>
 
 </html>
