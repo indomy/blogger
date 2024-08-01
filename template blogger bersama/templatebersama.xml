@@ -824,6 +824,12 @@ article{padding:0;overflow:hidden}
       </div>
     </div>
   </div>
+</b:includable>
+        <b:includable id='mobile-main' var='top'>
+    <!-- posts -->
+    <div class='blog-posts hfeed'>
+
+      <b:include data='top' name='status-message'/>  
 </body>
 
 </html>
