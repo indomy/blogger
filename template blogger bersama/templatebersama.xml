@@ -314,6 +314,14 @@ li.hasSubmenu.isMega > ul{position: absolute;width: 100%;left:0px;right:0px;}
 .morphofeatured .morpho-secondary .morpho-content .morphofeatured-title{margin: 10px 0px;}
 .morphofeatured h2{display: none;}
 
+/* Customized Widgets */
+.custwid .widget h2.title{padding-right: 90px !important;box-sizing: border-box;}
+.custwid .widget{position: relative;}
+.custwid .widget .morpho-right-all{position: absolute;right: 0px;top:8px;}
+.custwid .widget .morpho-right-all a{color: $(maincolor)}
+.morpho-right-all a{text-transform: capitalize;font-weight:400;}
+object.morpho-widget{padding: 30px 0px;display: block;width: 100%;}
+
 </head>
 <body expr:class='data:blog.pageType'>
 <div class='searchform-wrap search-transition-wrap'>
