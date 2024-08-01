@@ -104,6 +104,11 @@ article{padding:0;overflow:hidden}
 .morpho-social .rss:before{content:"\f09e"}
 .morpho-social .youtube:before{content:"\f167"}
 .morpho-social .skype:before{content:"\f17e"}
+.morpho-social .stumbleupon:before{content:"\f1a4"}
+.morpho-social .tumblr:before{content:"\f173"}
+.morpho-social .vine:before{content:"\f1ca"}
+.morpho-social .stack-overflow:before{content:"\f16c"}
+.morpho-social .linkedin:before{content:"\f0e1"}
 
 
 </head>
