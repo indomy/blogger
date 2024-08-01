@@ -870,6 +870,9 @@ body.index #blog-pager, body.archive #blog-pager{
   width: 100%;
 }
 .item-thumbnail:before{display: none !important;}
+.morpho-comment-thumb, .morpho-post-author .author-img img, #comment-holder .avatar-image-container{
+  border-radius: 5px;
+}
 
 //Html
 </head>
