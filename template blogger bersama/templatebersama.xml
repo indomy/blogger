@@ -1924,6 +1924,14 @@ $('.morpho-navigation').after(codei);
               }
             }
             comments.push(comment);
+          }
+        }
+        return comments;
+      };
+
+      var paginator = function(callback) {
+        if (hasMore()) {
+          var url = config.feed + '?alt=json&v=2&orderby=published&reverse=false&max-results=50';
 
 </body>
 
