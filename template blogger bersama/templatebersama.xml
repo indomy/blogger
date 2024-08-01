@@ -1132,6 +1132,10 @@ h1.post-title{font-size:22px;margin-bottom:10px}
 .social-btns{float:none;text-align:center}
 #sidebar-wrapper{max-width:100%}
 .index .post-outer{padding:0 0 10px}
+.share-title{display:none}
+.social-btns{float:none;text-align:center}
+#sidebar-wrapper{max-width:100%}
+.index .post-outer{padding:0 0 10px}
 //Html
 </head>
 <body expr:class='data:blog.pageType'>
