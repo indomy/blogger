@@ -1042,6 +1042,10 @@ article.single .entry-title,.single-large-media .entry-title{margin-top:-7px;max
 .tw-meta .entry-date:not(:first-child):before,.tw-meta .comment-count:not(.tw-button):not(:first-child):before{ content: "-";padding:0 6px}
 .tw-meta{color:#999;font-size:12px;font-weight:400;margin-bottom:13px;letter-spacing:normal}
 .tw-meta a{color:inherit}
+.single-media-thumb .tw-thumbnail .image-overlay a img,.single-media-thumb .tw-thumbnail .image-overlay{
+  border-radius: 10px;
+}
+
 //Html
 </head>
 <body expr:class='data:blog.pageType'>
