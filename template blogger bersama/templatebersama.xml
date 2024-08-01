@@ -1129,6 +1129,14 @@ li.hasSubmenu.isMega > ul{position: absolute;width: 100%;left:0px;right:0px;}
                 <div class='goog-inline-block dummy-container'><data:post.dummyTag/></div>
               </b:if>
             </div>
+            </div>
+        </div>
+
+        <b:include cond='data:blog.pageType in {&quot;static_page&quot;,&quot;item&quot;}' data='post' name='comment_picker'/>
+      </div>
+    </div>
+  </div>
+</b:includable>
 
 </body>
 
