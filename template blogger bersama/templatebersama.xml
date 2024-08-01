@@ -767,6 +767,9 @@ article{padding:0;overflow:hidden}
     </div>
   </b:if>
 </b:includable>
+  <b:includable id='feedLinksBody' var='links'>
+    <div class='feed-links'>
+    <data:feedLinksMsg/>
 </body>
 
 </html>
