@@ -1017,7 +1017,8 @@ article.single .entry-title,.single-large-media .entry-title{margin-top:-7px;max
 .entry-share > a.twitter{background:#00c3f3}
 .entry-share .share-toggle,.ext-share > *{width:40px;height:40px;line-height:40px;text-align:center;background-color:#c5c5c5;color:#fff;cursor:pointer;overflow:hidden;z-index:3}
 .entry-share .share-toggle i.ion-minus-round,.entry-share.expanded .share-toggle i.ion-plus-round{display:none}
-
+.entry-share.expanded .share-toggle i.ion-minus-round{display:block}
+.ext-share{height:0;width:0;transition:width 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55)}
 
 
 //Html
