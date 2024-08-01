@@ -809,6 +809,10 @@ form input[type='text']:hover,#morpho-footer .contact-form-widget textarea:hover
 }
 .morpho-box-list{
   margin-top: -25px;
+}
+.morpho-widget-col-2.morpho-list-col .post-image a{
+  border-radius-top-left: 10px;
+}
 
 //Html
 </head>
