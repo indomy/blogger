@@ -133,6 +133,13 @@ article{padding:0;overflow:hidden}
 .morpho-social #social a.pinterest:hover{color:#bd081c;}
 .morpho-social #social a.instagram:hover{color:#e4405f;}
 .morpho-social #social a.codepen:hover{color:#222;}
+.morpho-social #social a.linkedin:hover{color:#0077B5;}
+.morpho-social #social a.skype:hover{color:#00AFF0;}
+.morpho-social #social a.dropbox:hover{color:#007ee5;}
+.morpho-social #social a.wordpress:hover{color:#21759b;}
+.morpho-social #social a.vimeo:hover{color:#1ab7ea;}
+.morpho-social #social a.slideshare:hover{color:#0077b5;}
+.morpho-social #social a.vk:hover{color:#4c75a3;}
 
 
 </head>
