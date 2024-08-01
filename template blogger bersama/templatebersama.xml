@@ -1152,6 +1152,12 @@ li.hasSubmenu.isMega > ul{position: absolute;width: 100%;left:0px;right:0px;}
 
     <a class='home-link' expr:href='data:blog.homepageUrl'><data:homeMsg/></a>
 
+        <b:if cond='data:mobileLinkUrl'>
+      <div class='blog-mobile-link'>
+        <a expr:href='data:mobileLinkUrl'><data:mobileLinkMsg/></a>
+      </div>
+    </b:if>
+
 </body>
 
 </html>
