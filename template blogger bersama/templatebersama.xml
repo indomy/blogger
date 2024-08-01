@@ -148,6 +148,12 @@ article{padding:0;overflow:hidden}
 .morpho-social #social a.quora:hover{color:#b92b27;}
 .morpho-social #social a.yelp:before{content:"\f1e9";}
 .morpho-social #social a.yelp:hover{color:#af0606;}
+.morpho-social #social a.weibo:before{content:"\f18a";}
+.morpho-social #social a.weibo:hover{color:#df2029;}
+.morpho-social #social a.phunt:before{content:"\f288";}
+.morpho-social #social a.phunt:hover{color:#da552f;}
+.morpho-social #social a.hackernews:before{content:"\f1d4";}
+.morpho-social #social a.hackernews:hover{color:#ff6600;}
 
 
 </head>
