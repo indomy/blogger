@@ -895,7 +895,12 @@ article{padding:0;overflow:hidden}
         </b:if> 
       </b:if> 
       </h2>
-                        <b:elseif cond='data:blog.pageType == &quot;archive&quot;'/>                          
+                        <b:elseif cond='data:blog.pageType == &quot;archive&quot;'/>    
+<h2 class='post-title entry-title' itemprop='name'> 
+      <b:if cond='data:post.link'> 
+        <a expr:href='data:post.link' itemprop='url'><data:post.title/></a> 
+      <b:else/> 
+        <b:if cond='data:post.url'>                                               
 </body>
 
 </html>
