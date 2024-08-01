@@ -1067,7 +1067,18 @@ li.hasSubmenu.isMega > ul{position: absolute;width: 100%;left:0px;right:0px;}
         </b:if> 
       </b:if> 
       </h2>
-<b:else/>                                                     
+<b:else/>
+<h1 class='post-title entry-title' itemprop='name'> 
+     <b:if cond='data:post.link'> 
+       <data:post.title/> 
+     <b:else/> 
+        <b:if cond='data:post.url'> 
+         <data:post.title/> 
+<b:else/> 
+          <data:post.title/> 
+        </b:if> 
+     </b:if> 
+      </h1> 
 </body>
 
 </html>
