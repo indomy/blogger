@@ -867,6 +867,10 @@ article{padding:0;overflow:hidden}
   <div class='clear'/>
 </b:includable>
         <b:includable id='mobile-post' var='post'>  
+    <div class='date-outer'>
+    <b:if cond='data:post.dateHeader'>
+      <h2 class='date-header'><span><data:post.dateHeader/></span></h2>
+    </b:if>    
 </body>
 
 </html>
