@@ -2993,6 +2993,10 @@ head.appendChild(script);
       </li>
     </b:loop>
   </ul>
+</b:includable>
+    <b:includable id='interval' var='intervalData'>
+  <b:loop values='data:intervalData' var='interval'>
+    <ul class='hierarchy'>
 </body>
 
 </html>
