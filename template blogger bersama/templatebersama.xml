@@ -1033,6 +1033,8 @@ article.single .entry-title,.single-large-media .entry-title{margin-top:-7px;max
 .single-media-container{position:relative;background-color:#000;padding:150px 0 0}
 .single-media-container.with-img{display:flex;align-items:flex-end;min-height:630px}
 .single-large-media:not(.with-media){padding-bottom:1px}
+.single-media-content{position:relative;width:770px;padding-left:100px}
+.simple-blog .entry-title{margin-top:8px}
 //Html
 </head>
 <body expr:class='data:blog.pageType'>
