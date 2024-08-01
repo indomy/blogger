@@ -506,6 +506,13 @@
             <a expr:href='data:backlink.url' rel='nofollow'><data:backlink.title/></a>
             <b:include data='backlink' name='backlinkDeleteIcon'/>
           </dt>
+          <dd class='comment-body collapseable'>
+            <data:backlink.snippet/>
+          </dd>
+          <dd class='comment-footer collapseable'>
+            <span class='comment-author'><data:post.authorLabel/> <data:backlink.author/></span>
+            <span class='comment-timestamp'><data:post.timestampLabel/> <data:backlink.timestamp/></span>
+          </dd>
 </body>
 
 </html>
