@@ -344,6 +344,11 @@ object.morpho-widget{padding: 30px 0px;display: block;width: 100%;}
 .morpho-gallery-post .playing.img_dyn:after{content: "\f487";font-family: "Ionicons";font-size: 30px;color: #fff;width: 100%;line-height: 108px;text-align: center;background: rgba(0,0,0,0.4);height: 100%;display: table;cursor: pointer;}
 .morpho-gallery-post h3 a{font-size: 14px;font-weight: 600;}
 .morpho-gallery-post h3{padding: 10px 0px;line-height:18px;}
+.clearfix{clear:both;}
+.morpho-gallery-feature .regular.feature-image:after, .morpho-gallery-post .playing.regular.img_dyn:after{display:none !important;}
+.owl-nav{position: absolute;width:100%;top:0px;font-size:20px;color:#fff;display:none;opacity:0;transition:.2s all ease-in-out}
+.owl-nav .owl-next{right: 10px;position: absolute;top:58px;}
+.owl-nav .owl-prev{left:5px;position: absolute;top:58px;}
 
 </head>
 <body expr:class='data:blog.pageType'>
