@@ -605,6 +605,9 @@ div.morpho-empty{width: 100%;text-align:center;background:rgb(236,239,241);box-s
 .morpho-tab-wrapper{list-style:none}
 .content-tab{transition:all 0 ease;-webkit-transition:all 0 ease;-moz-transition:all 0 ease;-o-transition:all 0 ease}
 
+/* Blog Pager */
+#blog-pager{clear:both;text-align:center;padding:15px 0;background:#fff;color:#4d4d4d}
+
 //Html
 </head>
 <body expr:class='data:blog.pageType'>
