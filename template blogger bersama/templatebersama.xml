@@ -2259,6 +2259,12 @@ $('.morpho-navigation').after(codei);
     </div>
     </div>
   </div>
+</b:includable>
+     </b:widget>
+     <b:widget id='HTML990' locked='true' title='Comments System' type='HTML' version='1'>
+       <b:widget-settings>
+         <b:widget-setting name='content'>[blogger][disqus][facebook]</b:widget-setting>
+       </b:widget-settings>
 
 </body>
 
