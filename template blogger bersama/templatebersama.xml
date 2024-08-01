@@ -1039,6 +1039,7 @@ article.single .entry-title,.single-large-media .entry-title{margin-top:-7px;max
 .entry-title a:hover{color:#666}
 .entry-cats:empty{display:none}
 .entry-cats > span:last-child{display:none}
+.tw-meta .entry-date:not(:first-child):before,.tw-meta .comment-count:not(.tw-button):not(:first-child):before{ content: "-";padding:0 6px}
 //Html
 </head>
 <body expr:class='data:blog.pageType'>
