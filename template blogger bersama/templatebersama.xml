@@ -47,6 +47,8 @@ html,body,.section,.widget,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blo
 html{overflow-x:hidden}
 a{text-decoration:none;color:#000}
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+table{border-collapse:separate;border-spacing:0}
+caption,th,td{text-align:left;font-weight:400}
 </head>
 <body expr:class='data:blog.pageType'>
 <div class='searchform-wrap search-transition-wrap'>
