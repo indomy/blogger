@@ -1128,6 +1128,10 @@ h1.post-title{font-size:22px;margin-bottom:10px}
 #meta-post{display:inline-block}
 #meta-post .post-labels{display:block;margin:0 0 10px;clear:both}
 .other-meta .other-meta-desc,.other-meta .other-meta-read{float:none;display:block;text-align:center}
+.share-title{display:none}
+.social-btns{float:none;text-align:center}
+#sidebar-wrapper{max-width:100%}
+.index .post-outer{padding:0 0 10px}
 //Html
 </head>
 <body expr:class='data:blog.pageType'>
