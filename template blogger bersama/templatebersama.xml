@@ -333,6 +333,12 @@ object.morpho-widget{padding: 30px 0px;display: block;width: 100%;}
 .morpho-gallery-feature .morpho-iframe-hidden{display: none}
 .morpho-gallery-feature .feature-image{height: 400px;width: 100%;background-size: cover !important;}
 .morpho-gallery-feature .feature-image:after{content: "\f488";font-family: "Ionicons";font-size:60px;color: #fff;width: 100%;line-height: 400px;text-align: center; background: rgba(0,0,0,0.4);height: 100%;display: table;cursor:pointer}
+.morpho-gallery-feature h3{font-weight: 600;line-height: 40px;font-size:18px;margin-top:10px;}
+.morpho-gallery-feature .article-meta span, .morpho-gallery-feature .article-meta span a{color:#fff;}
+.morpho-gallery-feature .article-meta span i{font-size:17px;padding:10px 5px;}
+.morpho-gallery-feature .article-meta span a{font-size: 12px;display: inline;font-weight: 400;}
+.morpho-gallery-post h3 a:hover, .morpho-gallery-feature a:hover{color:$maincolor}
+.morpho-gallery-post{/*width: 25%;float: left;*/box-sizing:border-box;padding:15px 8px;position:relative;}
 
 </head>
 <body expr:class='data:blog.pageType'>
