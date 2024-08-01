@@ -2769,7 +2769,8 @@ head.appendChild(script);
       </b:widget>
     </b:section>
 <div style='clear: both;'/>
-
+<div class='morpho-sidebar-tabs' id='morpho-sidebar-tabs'>
+      <ul class='morpho-sidebar-tab'>
 
 </body>
 
