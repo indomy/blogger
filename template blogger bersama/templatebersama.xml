@@ -49,6 +49,12 @@ a{text-decoration:none;color:#000}
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
 table{border-collapse:separate;border-spacing:0}
 caption,th,td{text-align:left;font-weight:400}
+blockquote:before,blockquote:after,q:before,q:after{content:""}
+.quickedit,.home-link{display:none}
+blockquote,q{quotes:"" ""}
+sup{vertical-align:super;font-size:smaller}
+code{font-family:'Nunito', sans-serif;font-size:12px;color:#272727}
+a img{border:none}
 </head>
 <body expr:class='data:blog.pageType'>
 <div class='searchform-wrap search-transition-wrap'>
