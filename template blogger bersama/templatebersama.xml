@@ -1125,6 +1125,9 @@ body .single-content{
 .ticker .title,.tk-thumb,.ticker .post-tag{display:none}
 .index .post h2,.archive .post h2{line-height:34px;font-size:23px}
 h1.post-title{font-size:22px;margin-bottom:10px}
+#meta-post{display:inline-block}
+#meta-post .post-labels{display:block;margin:0 0 10px;clear:both}
+.other-meta .other-meta-desc,.other-meta .other-meta-read{float:none;display:block;text-align:center}
 //Html
 </head>
 <body expr:class='data:blog.pageType'>
