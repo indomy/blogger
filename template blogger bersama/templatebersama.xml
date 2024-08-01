@@ -706,6 +706,15 @@ select#BlogArchive1_ArchiveMenu{width:100%;padding:10px;}
 .sidebar .PopularPosts .widget-content ul li:last-child,.sidebar .morpho-recent .morpho-recent-item:last-child{padding-bottom:0}
 .PopularPosts .item-thumbnail{margin:0 15px 0 0 !important;width:80px;height:60px;float:left;overflow:hidden;position:relative}
 .PopularPosts .item-thumbnail a{position:relative;display:block;overflow:hidden;line-height:0}
+.PopularPosts ul li img{width:90px;height:65px;object-fit:cover;padding:0;transition:all .3s ease}
+.PopularPosts .widget-content ul li{overflow:hidden;padding:10px 0;border-top:1px solid #f2f2f2}
+.sidebar .PopularPosts .widget-content ul li:first-child,#morpho-sidebar-tabs .PopularPosts .widget-content ul li:first-child{padding-top:0;border-top:0}
+.sidebar .PopularPosts .widget-content ul li:last-child,.sidebar .morpho-recent .morpho-recent-item:last-child,.tab-widget .PopularPosts .widget-content ul li:last-child,.tab-widget .morpho-recent .morpho-recent-item:last-child{padding-bottom:0}
+.PopularPosts ul li a{color:$maincolor;font-weight:400;font-size:13px;line-height:1.4em;transition:color .3s;font-family:'Nunito', sans-serif;letter-spacing:1.5px}
+.PopularPosts ul li a:hover{color:#a0d3db}
+.PopularPosts .item-title{margin:0 0 4px;padding:0;line-height:0}
+.item-snippet{display:none;font-size:0;padding-top:0}
+rpho-comment-thumb{width:55px;height:55px;float:left;margin:0 10px 0 0}
 
 //Html
 </head>
