@@ -88,6 +88,9 @@ body{color:#2e2e2e;font-family:'Nunito', sans-serif;font-size:14px;font-weight:4
 #sidebar-wrapper{float:right;width:30%;max-width:340px}
 article{padding:0;overflow:hidden}
 
+/* Top Bar*/
+.morpho-top-menu ul li a{color:#666;font-size:12px;padding: 0 25px 0 0;line-height: 40px;}
+.morpho-top-wrapper{position:relative;min-height:40px;color:#aaa;margin:0 auto}
 </head>
 <body expr:class='data:blog.pageType'>
 <div class='searchform-wrap search-transition-wrap'>
