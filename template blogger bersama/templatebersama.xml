@@ -790,7 +790,9 @@ form input[type='text']:hover,#morpho-footer .contact-form-widget textarea:hover
 .morpho-top-wrapper{
   border-bottom: 1px solid #f7f7f7;
 }
-
+.morphofeatured-thumb{
+  border-radius: 10px;
+}
 //Html
 </head>
 <body expr:class='data:blog.pageType'>
