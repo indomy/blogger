@@ -2900,7 +2900,15 @@ head.appendChild(script);
                 <div class='widget-content popular-posts'>
                   <ul>
                     <b:loop values='data:posts' var='post'>
-                      <li>    
+                      <li>
+                        <b:if cond='!data:showThumbnails'>
+                          <b:if cond='!data:showSnippets'>
+                            <!-- (1) No snippet/thumbnail -->
+                            <a expr:href='data:post.href'><data:post.title/></a>
+                            <b:else/>
+                            <!-- (2) Show only snippets -->
+                            <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
+                            <div class='item-snippet'><data:post.snippet/></div>    
 </body>
 
 </html>
