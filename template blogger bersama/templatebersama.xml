@@ -615,7 +615,14 @@ div.morpho-empty{width: 100%;text-align:center;background:rgb(236,239,241);box-s
 .blog-pager-newer-link:before{content: "\f2ca";font-family: "Ionicons";color: #2f2f33;padding: 10px;font-size: 14px;background: $(lightcolor) ;border-radius: 100%;text-align: center;margin: 10px;display: inline-block;line-height: 10px;}
 .blog-pager-newer-link:hover{background: #fff;font-size: 12px;padding-left: 7px;color: #2f2f33;border:0px solid #000}
 .blog-pager-newer-link:hover:before{background:$maincolor;color: #fff}
-.
+.blog-pager-older-link{background: #fff;font-size: 12px;padding-left: 7px;color: #2f2f33;border:0px solid #000}
+.blog-pager-older-link:after{content: "\f30f";font-family: "Ionicons";color: #2f2f33;padding: 10px;font-size: 14px;background: $(lightcolor) ;border-radius: 100%;text-align: center;margin: 10px;display: inline-block;line-height: 10px;}
+.blog-pager-older-link:hover{background: #fff;font-size: 12px;padding-left: 7px;color: #2f2f33;border:0px solid #000}
+.blog-pager-older-link:hover:after{background:$maincolor;color: #fff}
+.blockpad{display: block;margin-bottom: 0px;}
+.displaypageNum a:hover, .showpage a:hover{background: transparent;color:$maincolor; border:0px;font-size:14px;}
+body.index #blog-pager, body.archive #blog-pager{background-color: $(lightcolor) ; padding:10px 0px;padding-bottom:14px;}
+
 
 //Html
 </head>
