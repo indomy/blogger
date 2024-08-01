@@ -873,6 +873,9 @@ body.index #blog-pager, body.archive #blog-pager{
 .morpho-comment-thumb, .morpho-post-author .author-img img, #comment-holder .avatar-image-container{
   border-radius: 5px;
 }
+.morpho-comment span, #comment-holder .comment-content{
+  border-radius: 7px;
+}
 
 //Html
 </head>
