@@ -98,7 +98,12 @@ article{padding:0;overflow:hidden}
 .morpho-social #social a{display:block;width:30px;height:30px;line-height:30px;font-size:14px;color:#666;transition:background .3s linear;-moz-transition:background .3s linear;-webkit-transition:background .3s linear;-o-transition:background .3s linear}
 .morpho-social #social a:before{display:inline-block;font:normal normal normal 22px/1 FontAwesome;font-size:inherit;font-style:normal;font-weight:400;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 .morpho-social .bloglovin:before{content:"\f004"}
-
+.morpho-social .facebook:before{content:"\f09a"}
+.morpho-social .twitter:before{content:"\f099"}
+.morpho-social .gplus:before{content:"\f0d5"}
+.morpho-social .rss:before{content:"\f09e"}
+.morpho-social .youtube:before{content:"\f167"}
+.morpho-social .skype:before{content:"\f17e"}
 
 
 </head>
