@@ -2265,6 +2265,16 @@ $('.morpho-navigation').after(codei);
        <b:widget-settings>
          <b:widget-setting name='content'>[blogger][disqus][facebook]</b:widget-setting>
        </b:widget-settings>
+       <b:includable id='main'>
+
+          <b:if cond='data:blog.pageType in {&quot;item&quot;,&quot;static_page&quot;}'>
+ 
+<div id='morpho-comment-placer'>
+            <b:if cond='data:content == &quot;[blogger]&quot;'>
+              <div class='morpho-tabs'>
+                <div data-tab='blogger'><div class='morpho-blogger-comment'/></div>
+              </div>
+            </b:if>
 
 </body>
 
