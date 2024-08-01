@@ -1161,6 +1161,10 @@ li.hasSubmenu.isMega > ul{position: absolute;width: 100%;left:0px;right:0px;}
   <div class='clear'/>
   </b:includable>
     <b:includable id='post' var='post'>
+
+    <b:if cond='data:blog.pageType in {&quot;index&quot;,&quot;archive&quot;}'>
+
+    
     
 
 </body>
