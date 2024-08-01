@@ -920,6 +920,10 @@ article.single .tw-meta:not(.entry-tags) {
 .entry-media > .tw-thumbnail {
   max-width: 100%;
 }
+.entry-media.single-media-thumb .image-overlay, .entry-media.single-media-thumb .image-overlay a {
+  position: static;
+  opacity: 1;
+}
 
 //Html
 </head>
