@@ -1747,7 +1747,13 @@ select#BlogArchive1_ArchiveMenu{width:100%;padding:10px;}
 	<div class='morpho-right-share'>
       <div class='social share-links clearfix'>
 			<div class='count-share'>
+              <ul class='social-icons list-unstyled list-inline'>
+                <li class='social-item facebook'> 
+                  <a class='post_share_facebook facebook' expr:href='&quot;http://www.facebook.com/sharer.php?u=&quot; + data:post.url' onclick='javascript:window.open(this.href,&apos;&apos;, &apos;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=220,width=600&apos;);return false;' title='facebook'> 
+                    <i class='fa fa-facebook'>
+                    </i> facebook                        
 
+    
 
 </body>
 
