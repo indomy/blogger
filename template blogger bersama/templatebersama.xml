@@ -862,6 +862,11 @@ article{padding:0;overflow:hidden}
     <div class='mobile-desktop-link'>
       <a class='home-link' expr:href='data:desktopLinkUrl'><data:desktopLinkMsg/></a>
     </div>
+
+  </div>
+  <div class='clear'/>
+</b:includable>
+        <b:includable id='mobile-post' var='post'>  
 </body>
 
 </html>
