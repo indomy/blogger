@@ -1007,6 +1007,9 @@ article.single .entry-title,.single-large-media .entry-title{margin-top:-7px;max
 .comment-count.tw-button{text-align:center;margin-left:auto}
 .single-content .entry-media{margin:0 0 40px -100px;text-align:left}
 .entry-content-container{z-index:2;position:relative;justify-content:flex-end}
+.entry-share.below .ext-share{top:0}
+.entry-share.below > a{width:330px}
+.entry-share{display:flex;align-content:stretch;position:relative;overflow:hidden;transition:padding 0.2s;margin-bottom:30px}
 
 
 //Html
