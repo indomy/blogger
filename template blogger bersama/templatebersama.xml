@@ -2747,6 +2747,9 @@ head.appendChild(script);
       <select expr:id='data:widget.instanceId + &quot;_select&quot;'>
         <b:loop values='data:links' var='link'>
           <option expr:value='data:link.href'>  
+            <b:attr cond='data:link.isCurrentPage' name='selected' value='selected'/>
+            <data:link.title/>
+          </option>          
 
 
 </body>
