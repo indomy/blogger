@@ -36,6 +36,13 @@
 </Group>
 -----------------------
 */
+
+/* Global */
+*::selection {background: $maincolor;color: #ffffff;}
+*::-o-selection {background: $maincolor;color: #ffffff;}
+*::-moz-selection {background: $maincolor;color: #ffffff;}
+*::-webkit-selection {background: $maincolor;color: #ffffff;}
+a:link{text-decoration:none}
 </head>
 <body expr:class='data:blog.pageType'>
 <div class='searchform-wrap search-transition-wrap'>
