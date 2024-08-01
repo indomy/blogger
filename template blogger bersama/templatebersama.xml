@@ -2393,6 +2393,21 @@ $('.morpho-navigation').after(codei);
          <b:widget-setting name='content'>theme-daddy</b:widget-setting>
        </b:widget-settings>
        <b:includable id='main'>
+          <b:if cond='data:blog.pageType in {&quot;item&quot;,&quot;static_page&quot;}'>
+            &lt;script type=&#39;text/javascript&#39;&gt;
+            var disqus_shortname = &#39;<data:content/>&#39;;
+             (function() {
+              var dsq = document.createElement(&#39;script&#39;); dsq.type = &#39;text/javascript&#39;; dsq.async = true;
+              dsq.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/embed.js&#39;;
+              (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(dsq);
+              })();
+            &lt;/script&gt;
+          </b:if>
+        </b:includable>
+     </b:widget>
+   </b:section>  
+  <div id='ads-blog'>
 
+</body>
 
 </html>
