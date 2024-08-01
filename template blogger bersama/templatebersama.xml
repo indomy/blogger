@@ -3018,6 +3018,11 @@ head.appendChild(script);
     </b:loop>
   </select>
 </b:includable>
+    <b:includable id='posts' var='posts'>
+  <ul class='posts'>
+    <b:loop values='data:posts' var='post'>
+      <li><a expr:href='data:post.url'><data:post.title/></a></li>
+    </b:loop>
 </body>
 
 </html>
