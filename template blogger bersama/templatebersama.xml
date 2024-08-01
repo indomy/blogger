@@ -1021,7 +1021,8 @@ article.single .entry-title,.single-large-media .entry-title{margin-top:-7px;max
 .ext-share{height:0;width:0;transition:width 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55)}
 .expanded .ext-share{width:auto}
 .ext-share > a{margin-right:10px}
-
+.ext-share > a.pinterest{background-color:#ca212a}
+.ext-share > a.linkedin{background-color:#0074a1}
 //Html
 </head>
 <body expr:class='data:blog.pageType'>
