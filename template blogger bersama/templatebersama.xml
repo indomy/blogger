@@ -275,6 +275,10 @@ li.hasSubmenu.isMega > ul{position: absolute;width: 100%;left:0px;right:0px;}
 25%,75%{-ms-transform:perspective(70px) rotateX(0deg);opacity:1;}
 90%,100%{-ms-transform:perspective(70px) rotateY(180deg);opacity:0;}
 }
+@-webkit-keyframes morpho-fold-thecube{0%, 10%{-webkit-transform:perspective(70px) rotateX(-180deg);opacity:0;}
+25%,75%{-webkit-transform:perspective(70px) rotateX(0deg);opacity:1;}
+90%,100%{-webkit-transform:perspective(70px) rotateY(180deg);opacity:0;}
+}
 
 
 </head>
