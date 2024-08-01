@@ -168,9 +168,6 @@ article{padding:0;overflow:hidden}
 <b:section class='post-author-social' id='Postwidegt2' maxwidgets='1' name='Author Social Links' preferred='no' showaddelement='no'>
   <b:widget id='LinkList999' locked='true' title='Author Social Links' type='LinkList' version='1'>
     <b:widget-settings>
-      <b:widget-setting name='link-3'>https://twitter.com/ThemeDaddy</b:widget-setting>
-      <b:widget-setting name='sorting'>NONE</b:widget-setting>
-      <b:widget-setting name='link-4'>https://www.facebook.com/themedaddynet/</b:widget-setting>
       <b:widget-setting name='text-1'><![CDATA[<i class="fa fa-vine"></i>]]></b:widget-setting>
       <b:widget-setting name='link-1'>#</b:widget-setting>
       <b:widget-setting name='text-0'><![CDATA[<i class="fa fa-instagram"></i>]]></b:widget-setting>
