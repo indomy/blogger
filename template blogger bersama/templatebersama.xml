@@ -2004,6 +2004,15 @@ $('.morpho-navigation').after(codei);
         'maxDepth': config.maxThreadDepth
       };
       var provider = {
+        'id': config.postId,
+        'data': items,
+        'loadNext': paginator,
+        'hasMore': hasMore,
+        'getMeta': getMeta,
+        'onReply': onReply,
+        'rendered': true,
+        'initComment': targetComment,
+
 
 </body>
 
