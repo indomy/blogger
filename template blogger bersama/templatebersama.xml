@@ -154,6 +154,12 @@ article{padding:0;overflow:hidden}
 .morpho-social #social a.phunt:hover{color:#da552f;}
 .morpho-social #social a.hackernews:before{content:"\f1d4";}
 .morpho-social #social a.hackernews:hover{color:#ff6600;}
+.morpho-social #social a.soundcloud:hover{color:#ff3300;}
+.morpho-social #social a.whatsapp:before{content:"\f232";}
+.morpho-social #social a.whatsapp:hover{color:#25D366;}
+.morpho-social #social a.wechat:before{content:"\f1d7";}
+.morpho-social #social a.wechat:hover{color:#09b83e;}
+.morpho-social #social a.vine:hover{color:#00b489;}
 
 
 </head>
