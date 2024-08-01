@@ -2253,6 +2253,13 @@ $('.morpho-navigation').after(codei);
       </div>
     </b:if>
 
+    <div id='backlinks-container'>
+    <div expr:id='data:widget.instanceId + &quot;_backlinks-container&quot;'>
+      <b:include cond='data:post.showBacklinks' data='post' name='backlinks'/>
+    </div>
+    </div>
+  </div>
+
 </body>
 
 </html>
