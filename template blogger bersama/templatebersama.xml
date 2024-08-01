@@ -631,7 +631,12 @@ body.index #blog-pager, body.archive #blog-pager{background-color: $(lightcolor)
 .morpho-sidebar-tab{display:flex;clear:both;padding:0;margin:0}
 .morpho-sidebar-tabs .widget h2{display:none}
 .morpho-sidebar-tab li{width:33.3%;float:left;display:inline-block;padding:0;position:relative}
-
+.morpho-sidebar-tab li a{font-family: 'Nunito', sans-serif;height: 32px;text-align: center;padding: 0;font-weight: 400;display: block;color: $(maincolor);font-size: 14px;line-height: 32px;letter-spacing: 1.5px;text-transform: uppercase;border-bottom: 2px solid $(lightcolor);}
+.morpho-sidebar-tab li.active a{color: $(maincolor);border-bottom: 2px solid $(maincolor);}
+.morpho-sidebar-tab li{display:none}
+.morpho-hide{display:inline-block!important}
+#tabside3{margin-bottom:15px}
+.morpho-sidebar-tabs .widget-content{padding:15px 0 0}
 
 
 //Html
