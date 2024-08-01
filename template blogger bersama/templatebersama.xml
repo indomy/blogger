@@ -120,6 +120,13 @@ article{padding:0;overflow:hidden}
 .morpho-social .vimeo:before{content:"\f27d";}
 .morpho-social .wordpress:before{content:"\f19a";}
 .morpho-social .dropbox:before{content:"\f16b";}
+.morpho-social .slideshare:before{content:"\f1e7";}
+.morpho-social .vk:before{content:"\f189";}
+.morpho-social .yahoo:before{content:"\f19e";}
+.morpho-social .reddit:before{content:"\f281";}
+.morpho-social #social a{transition:.2s all ease-in-out;}
+.morpho-social #social a:hover{transition:.2s all ease-in-out;}
+.morpho-social #social a.facebook:hover{color:#3b5999;}
 
 
 </head>
