@@ -799,6 +799,17 @@ article{padding:0;overflow:hidden}
         <h3 class='mobile-index-title entry-title' itemprop='name'>
           <data:post.title/>
         </h3> 
+
+        <div class='mobile-index-arrow'>&amp;rsaquo;</div>
+
+        <div class='mobile-index-contents'>
+          <b:if cond='data:post.thumbnailUrl'>
+            <div class='mobile-index-thumbnail'>
+              <div class='Image'>
+                <img expr:src='data:post.thumbnailUrl'/>
+              </div>
+            </div>
+          </b:if>
 </body>
 
 </html>
