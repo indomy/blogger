@@ -2894,7 +2894,13 @@ head.appendChild(script);
             <b:widget-setting name='showThumbnails'>true</b:widget-setting>
             <b:widget-setting name='showSnippets'>true</b:widget-setting>
             <b:widget-setting name='timeRange'>LAST_YEAR</b:widget-setting>
-          </b:widget-settings>            
+          </b:widget-settings>        
+            <b:includable id='main'>
+                <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
+                <div class='widget-content popular-posts'>
+                  <ul>
+                    <b:loop values='data:posts' var='post'>
+                      <li>    
 </body>
 
 </html>
