@@ -1569,8 +1569,22 @@ select#BlogArchive1_ArchiveMenu{width:100%;padding:10px;}
     <b:includable id='post' var='post'>
 
     <b:if cond='data:blog.pageType in {&quot;index&quot;,&quot;archive&quot;}'>
-
     
+
+<style>
+.displaypageNum a, .showpage a, .pagecurrent{background: transparent;color:#282828; border:0px;font-size:14px;}
+.pagecurrent{margin-top:0px;display: inline;}</style>
+<!--HOME AND STATIC PAGES-->
+ 
+         <b:if cond='data:post.isFirstPost'>
+<b:if cond='data:blog.url == data:blog.homepageUrl'>
+           <article class='hentry morpho-first-article'>
+             <div class='morpho-article-image'>
+               <div class='post-image'>
+                 <a expr:href='data:post.url'><b:if cond='data:post.firstImageUrl'><img class='morpho-featured-wid' expr:src='data:post.firstImageUrl'/><b:else/><img class='morpho-featured-wid' src='https://4.bp.blogspot.com/-wPwjv7-YYGY/Wc98wlDT8qI/AAAAAAAAAEE/mH8YkPl8qJAH9FMuFKcShQvXXYMmVyrIgCLcBGAs/s1600/notfound.png'/></b:if></a>
+				</div>
+			 </div>
+
     
 
 </body>
