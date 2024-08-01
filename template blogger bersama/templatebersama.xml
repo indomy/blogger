@@ -1079,6 +1079,9 @@ social{float:none;width:100%;clear:both;overflow:hidden}
 #search-bar{display:none}
 .ops-404{width:80%!important}
 .title-404{font-size:160px!important}
+.morphofeatured .morpho-hero{width:100%;float:none;padding-right:0;margin-bottom:10px}
+.mrph .morpho-featured .morpho-secondary .morphofeatured-thumb,.mrph .morpho-featured .morpho-secondary .morpho-thumb{height:500px}
+.post-home-image{float:none;width:100%;margin-bottom:20px;position:relative}
 //Html
 </head>
 <body expr:class='data:blog.pageType'>
