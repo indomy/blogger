@@ -1591,7 +1591,15 @@ select#BlogArchive1_ArchiveMenu{width:100%;padding:10px;}
                    <div class='morpho-head'>
                      <h3 class='entry-title'><a expr:href='data:post.url' rel='bookmark'><data:post.title/></a></h3>
 					  <div class='article-meta clearfix'> 
-
+							<span class='byline'><i aria-hidden='true' class='ion-ios-person-outline'/><span class='author vcard'><a class='url fn n' expr:href='data:post.authorUrl'><data:post.author/></a></span></span><span class='posted-on'><i aria-hidden='true' class='ion-ios-clock-outline'/><a expr:href='data:post.url' rel='bookmark'><time class='entry-date published format-date' expr:datetime='data:post.timestampISO8601'/></a></span></div>
+                     <script>$=jQuery,$(&quot;.format-date&quot;).map(function(){var e=$(this).attr(&quot;datetime&quot;),t=[&quot;January&quot;,&quot;February&quot;,&quot;March&quot;,&quot;April&quot;,&quot;May&quot;,&quot;June&quot;,&quot;July&quot;,&quot;August&quot;,&quot;September&quot;,&quot;October&quot;,&quot;November&quot;,&quot;December&quot;][(e=(e=e.split(&quot;T&quot;))[0].split(&quot;-&quot;))[1]-1]+&quot; &quot;+e[2]+&quot;, &quot;+e[0];$(this).html(t),$(this).removeClass(&quot;.format-date&quot;)});</script>
+					</div>
+				  </div>
+				</div>
+			 </div>
+		  </article>
+           
+  <b:else/>
     
     
 
