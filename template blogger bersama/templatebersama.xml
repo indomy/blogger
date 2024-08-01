@@ -3044,6 +3044,9 @@ head.appendChild(script);
   </b:widget>
   <b:widget id='FeaturedPost1' locked='false' title='Featured Post' type='FeaturedPost'>
     <b:widget-settings>
+          <b:widget-setting name='showSnippet'>true</b:widget-setting>
+      <b:widget-setting name='showPostTitle'>true</b:widget-setting>
+      <b:widget-setting name='postId'>6097113140773050121</b:widget-setting>
 </body>
 
 </html>
