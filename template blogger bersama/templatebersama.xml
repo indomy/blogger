@@ -187,6 +187,15 @@ article{padding:0;overflow:hidden}
 #header-inner{background-position:left;background-repeat:no}
 .morpho-wide img{height:auto;max-height:100%;margin:0}
 .morpho-wide h1,.morpho-wide h1 a,.morpho-wide h1 a:hover,.morpho-wide h1 a:visited{font-family:'Nunito', sans-serif;color:$maincolor;font-size:52px;font-weight:400;line-height:1.2em;margin:0;padding:0 0 5px;text-decoration:none;text-transform:uppercase;letter-spacing:1px}
+5px;text-decoration:none;text-transform:uppercase;letter-spacing:1px}
+.morpho-wide h3{font-weight:400;margin:0;padding:0}
+.morpho-wide .description{color:#666;margin:0;padding:0 0 10px;text-transform:capitalize;text-align:center;text-indent:0;letter-spacing:1px}
+.morpho-wide {margin: 0;padding: 0;float:left;text-align: center;}
+.headerright{float:right;margin:0;padding:1px 0 0;width:730px}
+.morpho-wide .description span{border-top:1px solid rgba(241,241,241,0.25);padding:5px 0 0}
+.Header img{max-width: 260px;margin:0 auto;}
+
+
 
 
 </head>
