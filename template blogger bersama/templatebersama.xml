@@ -1067,6 +1067,11 @@ padding:3px;
 .morpho-navigation .selectnav{display:inline-block;margin:10px 0 0 10px}
 #morpho-menu{text-align:left}
 }
+@media screen and (max-width: 880px) {
+.item #content-wrapper{padding:0 0 30px}
+}
+@media only screen and (max-width: 768px) {
+.morpho-social,.bottom-bar-
 //Html
 </head>
 <body expr:class='data:blog.pageType'>
