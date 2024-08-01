@@ -384,6 +384,11 @@ ol{padding-left: 20px;box-sizing:border-box;width:100%;}
 .morpho-post-share a{color: #fff;}
 .morpho-post-share ul li{padding:15px;list-style-type: none;font-size:25px;float:left;}
 article.morpho-post{padding: 0px;}
+.morpho-post-share{background: rgba(0,0,0,0.5);opacity: 0;transition: .2s all ease-in-out;}
+.morpho-widget ul.social-icons{display: table;text-align: center;padding: 0px 110px;}
+.morpho-parentover:hover .morpho-post-share{opacity: 1;transition: .2s all ease-in-out;}
+.morpho-post-share a:hover{color: $maincolor}
+.morpho-widget.list .morpho-widget-col-1 h3.entry-title a{font-weight:600;line-height:42px;font-size: 18px;color:rgb(47, 47, 51);}
 
 </head>
 <body expr:class='data:blog.pageType'>
