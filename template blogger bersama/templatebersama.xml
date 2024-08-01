@@ -76,6 +76,8 @@ blockquote{padding: 20px 50px 20px 50px;background: $(lightcolor);border-left: 5
 img{max-width:100%;vertical-align:middle;border:0}
 .widget iframe,.widget img{max-width:100%}
 .status-msg-border{border:1px solid #ff545a;background:$maincolor}
+.status-msg-body{color:$maincolor;font-family:'Nunito', sans-serif;letter-spacing:0;font-weight:400}
+
 </head>
 <body expr:class='data:blog.pageType'>
 <div class='searchform-wrap search-transition-wrap'>
