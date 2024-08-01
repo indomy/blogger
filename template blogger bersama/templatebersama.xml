@@ -364,6 +364,11 @@ ol{padding-left: 20px;box-sizing:border-box;width:100%;}
 .morphofeatured .morpho-hero{width:60%;position:relative;float:left;padding-right:1.4%;box-sizing:border-box;overflow:hidden}
 .morphofeatured .morpho-featured-image{width:100%;position:relative;overflow:hidden}
 .morphofeatured .morpho-hero .morphofeatured-thumb,.morphofeatured .blsm-img{height:500px}
+.mrph .morpho-hero .morphofeatured-thumb{position:relative;width:100%;height:200px}
+.morphofeatured-thumb{overflow:hidden}
+.morphofeatured .morpho-hero .morphofeatured-thumb,.morphofeatured .blsm-img{height:500px!important}
+.mrph .blsm-img{width:100%;height:200px;position:relative;display:block}
+.morpho-hero .morphofeatured-thumb .morpho-label{position:absolute;top:15px;left:15px;z-index:2}
 
 </head>
 <body expr:class='data:blog.pageType'>
