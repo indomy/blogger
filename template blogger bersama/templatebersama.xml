@@ -980,6 +980,9 @@ article.single .tw-meta:not(.entry-tags) {
   text-transform: uppercase;
   margin-right: 10px;
 }
+.entry-share > a.twitter {
+  background: #00c3f3;
+}
 
 //Html
 </head>
