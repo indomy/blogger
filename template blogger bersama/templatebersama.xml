@@ -2759,7 +2759,12 @@ head.appendChild(script);
           <li>
             <b:class cond='data:link.isCurrentPage' name='selected'/>
             <a expr:href='data:link.href'><data:link.title/></a>
-
+          </li>
+        </b:loop>
+      </ul>
+    </b:if>
+    <b:include name='quickedit'/>
+  </div>
 
 
 
