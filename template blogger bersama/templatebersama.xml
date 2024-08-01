@@ -465,6 +465,19 @@ div.morpho-empty{width: 100%;text-align:center;background:rgb(236,239,241);box-s
 .postmarg .article-meta a{font-size: 12px;margin-right: 15px;}
 .postmarg .article-meta i{font-size: 15px;}
 
+/* Post Bottom Share */
+.morpho-right-share ul li{float: left;}
+.morpho-right-share ul li a{display: inline-block;color: #FFF;text-align: center;font-size: 12px;}
+.morpho-right-share .share-links .social-item.facebook {background: #3b5998}
+.morpho-right-share .share-links .social-item {padding: 4px 10px;box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); cursor: pointer; margin-left: 5px; text-align: center;-webkit-transition: 0.2s;-o-transition: 0.2s;transition: 0.2s;}
+.morpho-left-tags, .morpho-right-share{position: relative;display: block;width: 100%;padding: 5px 0px;}
+.morpho-right-share .share-links .social-item.twitter {background: #00aced}
+.morpho-right-share .share-links .social-item.google {background: #dd4b39}
+.morpho-right-share .share-links .social-item.google:hover {background: #ac2d1e}
+.morpho-right-share .share-links .social-item.twitter:hover {background: #0074a1}
+.morpho-right-share .share-links .social-item.facebook:hover {background: #263961}
+.morpho-right-share .share-links .count-share .social-item i {font-size: 10px;color: #fff;padding-right: 5px;}
+
 
 //Html
 </head>
