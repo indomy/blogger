@@ -1973,6 +1973,14 @@ $('.morpho-navigation').after(codei);
 
       var onReply = function(commentId, domId) {
         if (replybox == null) {
+          // lazily cache replybox, and adjust to suit this style:
+          replybox = document.getElementById('comment-editor');
+          if (replybox != null) {
+            replybox.height = '250px';
+            replybox.style.display = 'block';
+            replyUrlParts = replybox.src.split('#');
+          }
+        }
 
 </body>
 
