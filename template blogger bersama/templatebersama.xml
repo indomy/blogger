@@ -2428,6 +2428,12 @@ $('.morpho-navigation').after(codei);
 <div style='clear: both;'/>
       </div>
 
+</div>
+  <div id='sidebar-wrapper'>
+    <b:section class='sidebar morpho-widetize' id='sidebar(1)' name='SIDEBAR TOP' preferred='yes'>
+      <b:widget id='HTML111' locked='false' title='Advertisement' type='HTML'>
+        <b:widget-settings>
+          <b:widget-setting name='content'><![CDATA[<script type="text/javascript">
 
 </body>
 
