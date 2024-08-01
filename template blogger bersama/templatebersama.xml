@@ -891,6 +891,16 @@ article.single .entry-title {
   margin-bottom: 15px;
   font-weight: 700;
 }
+article.single .tw-meta:not(.entry-tags) {
+  position: relative;
+  margin-bottom: 50px;
+  padding-left: 50px;
+  max-width: 670px;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
 //Html
 </head>
