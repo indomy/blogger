@@ -858,6 +858,10 @@ article{padding:0;overflow:hidden}
     <a class='home-link' expr:href='data:blog.homepageUrl'><data:homeMsg/></a>
     </div>
     </b:if>
+
+    <div class='mobile-desktop-link'>
+      <a class='home-link' expr:href='data:desktopLinkUrl'><data:desktopLinkMsg/></a>
+    </div>
 </body>
 
 </html>
