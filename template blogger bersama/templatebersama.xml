@@ -1600,8 +1600,144 @@ select#BlogArchive1_ArchiveMenu{width:100%;padding:10px;}
 		  </article>
            
   <b:else/>
-    
-    
+
+   <article class='hentry morpho-article'>
+             <div class='morpho-article-image'>
+               <div class='morpho-post-image'>
+                 <div class='morpho-bgr'/>
+                 <a expr:href='data:post.url'><b:if cond='data:post.firstImageUrl'><div class='morpho-featured-wid' expr:style='&quot;background:url(&quot; + data:post.firstImageUrl + &quot;)&quot;'/><b:else/><div class='morpho-featured-wid' style='background:url(https://4.bp.blogspot.com/-wPwjv7-YYGY/Wc98wlDT8qI/AAAAAAAAAEE/mH8YkPl8qJAH9FMuFKcShQvXXYMmVyrIgCLcBGAs/s1600/notfound.png)'/></b:if></a>
+                 <div class='social share-links clearfix'>
+					<ul class='social-icons list-unstyled list-inline'>
+                      <li class='social-item facebook'>
+                          <a class='post_share_facebook facebook' expr:href='&quot;http://www.facebook.com/sharer.php?u=&quot;+ data:post.url' onclick='javascript:window.open(this.href,&apos;&apos;, &apos;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=220,width=600&apos;);return false;' title='facebook'> <i class='fa fa-facebook'/> </a>
+                      </li>
+                      <li class='social-item twitter'>
+                          <a class='product_share_twitter twitter' expr:href='&quot;https://twitter.com/share?url=&quot;+ data:post.url' onclick='javascript:window.open(this.href,&apos;&apos;, &apos;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=260,width=600&apos;);return false;' title='twitter'> <i class='fa fa-twitter'/> </a>
+                      </li>
+                      <li class='social-item google'>
+                          <a class='googleplus' expr:href='&quot;https://plus.google.com/share?url=&quot;+ data:post.url' onclick='javascript:window.open(this.href,&apos;&apos;, &apos;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&apos;);return false;' title='google +'> <i class='fa fa-google-plus'/> </a>
+                      </li>
+                  </ul>
+				 </div>
+				</div>
+				
+			 </div>
+             <div class='article-content'>
+               <div class='article-inwhite'>
+               <div class='entry-header clearfix'>
+                 <h3 class='entry-title'><a expr:href='data:post.url' expr:title='data:post.title'><data:post.title/></a></h3>
+			   </div>
+               <div class='article-meta clearfix'>
+					<span class='byline'>
+						<i aria-hidden='true' class='ion-ios-person-outline'/>
+						<span class='author vcard'>
+                          <a class='url fn n' expr:href='data:post.authorUrl'><data:post.author/></a>
+						</span>
+					</span>
+					<span class='posted-on'>
+						<i aria-hidden='true' class='ion-ios-clock-outline'/>
+                        <a expr:href='data:post.url' rel='bookmark'>
+                            <time class='entry-date published format-date' expr:datetime='data:post.timestampISO8601'/>
+                        </a>
+   					</span>
+				</div>
+               <div class='entry-content'>
+                 <div><data:post.snippet/></div>
+				</div>
+				<a class='btn-read' expr:href='data:post.url'>Read More</a>
+               </div>
+			 </div>
+		   </article>
+<script>$=jQuery,$(&quot;.format-date&quot;).map(function(){var e=$(this).attr(&quot;datetime&quot;),t=[&quot;January&quot;,&quot;February&quot;,&quot;March&quot;,&quot;April&quot;,&quot;May&quot;,&quot;June&quot;,&quot;July&quot;,&quot;August&quot;,&quot;September&quot;,&quot;October&quot;,&quot;November&quot;,&quot;December&quot;][(e=(e=e.split(&quot;T&quot;))[0].split(&quot;-&quot;))[1]-1]+&quot; &quot;+e[2]+&quot;, &quot;+e[0];$(this).html(t),$(this).removeClass(&quot;.format-date&quot;)});</script>
+</b:if>
+
+
+           <b:else/>
+           <article class='hentry morpho-article'>
+             <div class='morpho-article-image'>
+               <div class='morpho-post-image'>
+                 <div class='morpho-bgr'/>
+                 <a expr:href='data:post.url'><b:if cond='data:post.firstImageUrl'><div class='morpho-featured-wid' expr:style='&quot;background:url(&quot; + data:post.firstImageUrl + &quot;)&quot;'/><b:else/><div class='morpho-featured-wid' style='background:url(https://4.bp.blogspot.com/-wPwjv7-YYGY/Wc98wlDT8qI/AAAAAAAAAEE/mH8YkPl8qJAH9FMuFKcShQvXXYMmVyrIgCLcBGAs/s1600/notfound.png)'/></b:if></a>
+                 <div class='social share-links clearfix'>
+					<ul class='social-icons list-unstyled list-inline'>
+                      <li class='social-item facebook'>
+                          <a class='post_share_facebook facebook' expr:href='&quot;http://www.facebook.com/sharer.php?u=&quot;+ data:post.url' onclick='javascript:window.open(this.href,&apos;&apos;, &apos;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=220,width=600&apos;);return false;' title='facebook'> <i class='fa fa-facebook'/> </a>
+                      </li>
+                      <li class='social-item twitter'>
+                          <a class='product_share_twitter twitter' expr:href='&quot;https://twitter.com/share?url=&quot;+ data:post.url' onclick='javascript:window.open(this.href,&apos;&apos;, &apos;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=260,width=600&apos;);return false;' title='twitter'> <i class='fa fa-twitter'/> </a>
+                      </li>
+                      <li class='social-item google'>
+                          <a class='googleplus' expr:href='&quot;https://plus.google.com/share?url=&quot;+ data:post.url' onclick='javascript:window.open(this.href,&apos;&apos;, &apos;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&apos;);return false;' title='google +'> <i class='fa fa-google-plus'/> </a>
+                      </li>
+                  </ul>
+				 </div>
+				</div>
+			 </div>
+             <div class='article-content'>
+               <div class='article-inwhite'>
+               <div class='entry-header clearfix'>
+                 <h3 class='entry-title'><a expr:href='data:post.url' expr:title='data:post.title'><data:post.title/></a></h3>
+			   </div>
+               <div class='article-meta clearfix'>
+					<span class='byline'>
+						<i aria-hidden='true' class='ion-ios-person-outline'/>
+						<span class='author vcard'>
+                          <a class='url fn n' expr:href='data:post.authorUrl'><data:post.author/></a>
+						</span>
+					</span>
+					<span class='posted-on'>
+						<i aria-hidden='true' class='ion-ios-clock-outline'/>
+                        <a expr:href='data:post.url' rel='bookmark'>
+                            <time class='entry-date published format-date' expr:datetime='data:post.timestampISO8601'/>
+                        </a>
+   					</span>
+				</div>
+               <div class='entry-content'>
+                 <div><data:post.snippet/></div>
+				</div>
+				<a class='btn-read' expr:href='data:post.url'>Read More</a>
+               </div>
+			 </div>
+		   </article>
+<script>$=jQuery,$(&quot;.format-date&quot;).map(function(){var e=$(this).attr(&quot;datetime&quot;),t=[&quot;January&quot;,&quot;February&quot;,&quot;March&quot;,&quot;April&quot;,&quot;May&quot;,&quot;June&quot;,&quot;July&quot;,&quot;August&quot;,&quot;September&quot;,&quot;October&quot;,&quot;November&quot;,&quot;December&quot;][(e=(e=e.split(&quot;T&quot;))[0].split(&quot;-&quot;))[1]-1]+&quot; &quot;+e[2]+&quot;, &quot;+e[0];$(this).html(t),$(this).removeClass(&quot;.format-date&quot;)});</script>
+		</b:if>
+  <b:else/>
+  <style>.hidden{display:none;}</style>
+
+<div class='single-content'>
+            <article class='single post hentry'>
+              <h1 class='entry-title'><data:post.title/></h1>
+				<div class='tw-meta'><span class='entry-author'><img class='avatar avatar-40 wp-user-avatar wp-user-avatar-40 alignnone photo' expr:alt='data:post.author' expr:src='data:post.authorPhoto.url' height='40' width='40'/>by <a expr:href='data:post.url' expr:title='&quot;Posts by &quot; + data:post.author' rel='author'><data:post.author/></a></span><span class='entry-date'><a expr:href='data:post.url' id='pubago'>
+                  <script>$(document).ready(function(){var t = &#39;<data:post.timestampISO8601/>&#39;;var ti = timeSince(new Date(t).getTime());document.getElementById(&#39;pubago&#39;).innerHTML = ti +&#39; ago &#39;;});</script>
+
+</a></span><span class='entry-cats'><b:if cond='data:top.showPostLabels and data:post.labels'><span>&#160; in </span><b:loop values='data:post.labels' var='label'><a class='morpho-max-limit' expr:href='data:label.url' expr:title='&quot;View all posts in &quot; + data:label.name'><data:label.name/></a> <b:if cond='not data:label.isLast'>, </b:if></b:loop></b:if></span><span class='tw-button comment-count'><a expr:href='data:post.url + &quot;#comments&quot;' expr:title='data:post.numComments + &quot; comments&quot;'><data:post.numComments/> comments</a></span></div>
+
+<b:if cond='data:post.firstImageUrl'>
+<div class='entry-media single-media-thumb'><div class='tw-thumbnail'><div class='image-overlay'><a class='overlay-icon' expr:href='data:post.url' expr:title='data:post.title'><img expr:alt='data:post.title' expr:src='data:post.firstImageUrl'/></a></div></div></div>
+
+              </b:if>
+
+              <div class='entry-content-container'>
+				<div class='entry-share vertical' data-id='95' expr:data-ajaxurl='data:blog.homepageUrl'>
+					<a class='facebook' expr:href='data:post.url' title='Share this'><i class='ion-social-facebook'/></a>
+					<a class='twitter' expr:data-title='data:post.title' expr:href='data:post.url' title='Tweet'><i class='ion-social-twitter'/></a>
+    			<div class='ext-share'>
+					<a class='google' expr:href='data:post.url' title='Share'><i class='ion-social-googleplus'/></a>
+					<a class='linkedin' expr:data-title='data:post.title' expr:href='data:post.url' title='Share'><i class='ion-social-linkedin'/></a>
+					<a class='pinterest' expr:data-image='data:post.firstImageUrl' expr:data-title='data:post.title' expr:href='data:post.url' title='Pin It'><i class='ion-social-pinterest'/></a>
+				</div>
+    <div class='share-toggle header'><i class='ion-plus-round'/><i class='ion-minus-round'/></div>
+</div>	
+                <div class='entry-content'> <div class='morpho-advertising'><a name='ad-post-top'/></div><div class='post-main-body post-body'><data:post.body/></div><div class='clearfix'/></div>			  
+			  </div>
+
+
+ 
+
+
+<div class='morpho-advertising'><a name='ad-post-bottom'/><div class='clearfix blockpad'/></div>
+  <div class='clearfix'/>
+
 
 </body>
 
