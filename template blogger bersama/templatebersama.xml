@@ -195,6 +195,9 @@ article{padding:0;overflow:hidden}
 .morpho-wide .description span{border-top:1px solid rgba(241,241,241,0.25);padding:5px 0 0}
 .Header img{max-width: 260px;margin:0 auto;}
 
+/*Select Nav*/
+.selectnav{display:none}
+
 
 
 
