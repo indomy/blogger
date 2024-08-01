@@ -436,6 +436,13 @@ div.morpho-empty{width: 100%;text-align:center;background:rgb(236,239,241);box-s
 .morpho-article .morpho-article-image .morpho-featured-wid{width: 100%;height:280px;display: block;background-size:cover !important;background-position: center center !important;}
 .morpho-article .morpho-post-image:hover .morpho-bgr{background: rgba(0, 0, 0, 0.5);opacity: 1;-webkit-transition: 0.4s;-o-transition: 0.4s;transition: 0.4s;}
 .morpho-article .share-links{opacity: 0;left: 0;margin-top: -15px;position:absolute;right: 0;top: 50%;-webkit-transition: 0.4s;-o-transition: 0.4s;transition: 0.4s;display: inline;text-align: center;}
+.morpho-article .morpho-post-image:hover .share-links{opacity:1}
+.morpho-article .share-links .social-icons {margin: 0; text-align: right; display: inline-block;}
+.morpho-article .share-links .social-item {border: none;background: transparent; box-shadow: none; margin: 5px;}
+.morpho-article .share-links .social-item { float: left;}
+.morpho-article .share-links .social-item a{font-size:24px;display: inline-block;color: #FFF;text-align: center;padding: 4px 10px;}
+.list-unstyled,.list-unstyled li{list-style-type: none;}
+.morpho-article .post-cat {position: absolute; top: 5px;left: 5px;font-size: 14px;font-weight: 400;display: block; overflow: hidden;text-overflow: ellipsis; white-space: nowrap;width:100%;}
 
 
 </head>
