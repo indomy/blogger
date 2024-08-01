@@ -885,6 +885,12 @@ article.single .entry-title, .single-large-media .entry-title {
   margin-top: -7px;
   max-width: 670px;
 }
+article.single .entry-title {
+  font-size: 36px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
 
 //Html
 </head>
