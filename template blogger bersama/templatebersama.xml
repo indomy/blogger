@@ -835,6 +835,12 @@ article{padding:0;overflow:hidden}
         <b:loop values='data:posts' var='post'>
           <b:include data='post' name='mobile-index-post'/>
         </b:loop>
+      <b:else/>
+        <b:loop values='data:posts' var='post'>
+          <b:include data='post' name='mobile-post'/>
+        </b:loop>
+      </b:if>
+    </div>  
 </body>
 
 </html>
