@@ -2473,6 +2473,9 @@ var _0x177b=['\x4a\x4d\x4f\x7a\x77\x36\x2f\x44\x6d\x38\x4f\x55','\x51\x42\x30\x4
   <div class='widget-content'>
     <data:content/>
   </div>
+  <!--b:include name='quickedit'/-->
+</b:includable>
+</b:widget>
 
 
 </body>
