@@ -2019,6 +2019,13 @@ $('.morpho-navigation').after(codei);
 
       var render = function() {
         if (window.goog && window.goog.comments) {
+          var holder = document.getElementById('comment-holder');
+          window.goog.comments.render(holder, provider);
+        }
+      };
+
+      // render now, or queue to render when library loads:
+      if (window.goog && window.goog.comments) {
 
     
 
