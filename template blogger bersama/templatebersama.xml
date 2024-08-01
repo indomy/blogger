@@ -181,6 +181,13 @@ article{padding:0;overflow:hidden}
 .morpho-top-menu ul li a{display:block;border:none!important;text-decoration:none;font-weight:400;text-transform:capitalize;font-family:'Nunito', sans-serif;}
 .morpho-top-menu ul li a:hover{color:#000}
 
+/*Header*/
+.morpho-center-header{background:#e3dee0}
+#morpho-wide-wrapper{color:#fff;padding:30px 0;margin:0 auto}
+#header-inner{background-position:left;background-repeat:no}
+.morpho-wide img{height:auto;max-height:100%;margin:0}
+.morpho-wide h1,.morpho-wide h1 a,.morpho-wide h1 a:hover,.morpho-wide h1 a:visited{font-family:'Nunito', sans-serif;color:$maincolor;font-size:52px;font-weight:400;line-height:1.2em;margin:0;padding:0 0 5px;text-decoration:none;text-transform:uppercase;letter-spacing:1px}
+
 
 </head>
 <body expr:class='data:blog.pageType'>
