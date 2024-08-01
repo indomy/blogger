@@ -2296,6 +2296,12 @@ $('.morpho-navigation').after(codei);
               //]]>
               </script>
             </b:if>
+            <b:if cond='data:content == &quot;[blogger][facebook]&quot;'>
+              <div class='morpho-tabs'>
+                <div data-tab='blogger'><div class='morpho-blogger-comment'/></div>
+                <div data-tab='facebook'><div class='facebook-tab'/></div>
+              </div>
+            </b:if>
 
 </body>
 
