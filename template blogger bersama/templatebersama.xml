@@ -1045,6 +1045,12 @@ article.single .entry-title,.single-large-media .entry-title{margin-top:-7px;max
 .single-media-thumb .tw-thumbnail .image-overlay a img,.single-media-thumb .tw-thumbnail .image-overlay{
   border-radius: 10px;
 }
+.post-body{
+padding:3px;
+}
+.post-body a{
+  margin-left: initial !important;
+}
 
 //Html
 </head>
