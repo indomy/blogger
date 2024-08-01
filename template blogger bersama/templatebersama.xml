@@ -140,6 +140,14 @@ article{padding:0;overflow:hidden}
 .morpho-social #social a.vimeo:hover{color:#1ab7ea;}
 .morpho-social #social a.slideshare:hover{color:#0077b5;}
 .morpho-social #social a.vk:hover{color:#4c75a3;}
+.morpho-social #social a.tumblr:hover{color:#34465d;}
+.morpho-social #social a.yahoo:hover{color:#410093;}
+.morpho-social #social a.stumbleupon:hover{color:#eb4924;}
+.morpho-social #social a.reddit:hover{color:#ff5700;}
+.morpho-social #social a.quora:before{content:"\f2c4";}
+.morpho-social #social a.quora:hover{color:#b92b27;}
+.morpho-social #social a.yelp:before{content:"\f1e9";}
+.morpho-social #social a.yelp:hover{color:#af0606;}
 
 
 </head>
