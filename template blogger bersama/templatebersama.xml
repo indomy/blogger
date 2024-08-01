@@ -3029,6 +3029,12 @@ head.appendChild(script);
     <span expr:class='&quot;zippy&quot; + (data:interval.expclass == &quot;expanded&quot; ? &quot; toggle-open&quot; : &quot;&quot;)'>
       <b:if cond='data:interval.expclass == &quot;expanded&quot;'>
         &#9660;&#160;
+        
+  </ul>
+
+      <b:elseif cond='data:blog.languageDirection == &quot;rtl&quot;'/>
+        &#9668;&#160;
+      <b:else/>
 </body>
 
 </html>
