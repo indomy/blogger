@@ -2774,7 +2774,8 @@ head.appendChild(script);
         <li class='item-1'><a href='#tabside1'/></li>
         <li class='item-2'><a href='#tabside2'/></li>
 <li class='item-3'><a href='#tabside3'/></li>
-
+      </ul>
+      <b:section class='sidebar morpho-widetize' id='tabside1' maxwidgets='1' name='Tab [1]' showaddelement='yes'>
 
 
 
