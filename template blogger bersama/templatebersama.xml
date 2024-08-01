@@ -396,6 +396,18 @@ article.morpho-post{padding: 0px;}
 .morpho-widget.list .morpho-widget-col-1 .entry-content a.btn-read{border:1px solid rgb(234, 234, 241);padding:5px 20px;display: table;margin-top:20px;text-transform: uppercase;font-size: 12px;}
 .morpho-widget.list .morpho-widget-col-1 .entry-content a.btn-read:hover{border-color: $maincolor;background: $maincolor;color: #fff;}
 .morpho-widget.list .morpho-widget-col-2 .article-image a{height:100px;display:block;width:100px;background-size:cover !important;background-position:center !important;}
+.morpho-widget.list .morpho-widget-col-2 .article-image{width: 100px;float: left;}
+.morpho-widget.list .morpho-widget-col-2 .morpho-post{margin-bottom:20px;}
+.morpho-widget.list .morpho-widget-col-2 .morpho-post .article-content{box-sizing: border-box;padding-left:15px;display:table;}
+.morpho-widget.list .morpho-widget-col-2 .morpho-post .article-content h3 a{font-size:14px;line-height:14px;font-weight: 600; padding-top:10px;display: table;}
+.morpho-widget.list .morpho-widget-col-2 .morpho-post .article-content .article-meta{color: rgb(142, 142, 149);padding-top:5px; display: table;}
+.morpho-widget.list .morpho-widget-col-2 .morpho-post .article-content .article-meta .entry-date{color: rgb(142, 142, 149);font-weight: 400;font-size:12px;}
+.morpho-widget.list .morpho-widget-col-2 a:hover{color:$maincolor}
+img.morpho-empty{max-width: 250px;}
+div.morpho-empty{width: 100%;text-align:center;background:rgb(236,239,241);box-sizing:border-box;padding:50px 0px;}
+.morpho-no-title h3{font-weight: 600;}
+#customwidget .morpho-widget.list .morpho-widget-col-1 .morpho-parentover .morpho-post-share ul{filter:blur(20px);transition:.6s all ease;}
+#customwidget .morpho-widget.list .morpho-widget-col-1 .morpho-parentover:hover .morpho-post-share ul{filter:blur(0px)}
 
 </head>
 <body expr:class='data:blog.pageType'>
