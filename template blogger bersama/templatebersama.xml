@@ -1019,7 +1019,8 @@ article.single .entry-title,.single-large-media .entry-title{margin-top:-7px;max
 .entry-share .share-toggle i.ion-minus-round,.entry-share.expanded .share-toggle i.ion-plus-round{display:none}
 .entry-share.expanded .share-toggle i.ion-minus-round{display:block}
 .ext-share{height:0;width:0;transition:width 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55)}
-
+.expanded .ext-share{width:auto}
+.ext-share > a{margin-right:10px}
 
 //Html
 </head>
