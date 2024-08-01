@@ -242,7 +242,13 @@ li.hasSubmenu.isMega > ul{position: absolute;width: 100%;left:0px;right:0px;}
 .morpho-mega-item .morpho-m-thumb{display: block;height: 150px;background-size:cover !important;background-position:center center !important;}
 .isMega.hasSubmenu .mega-inner{padding: 20px;position:relative;margin:0px;}
 #morpho-menu ul > li.isMega.hasSubmenu .morpho-text a{padding: 8px 0px !important;font-weight: 500;font-family: Nunito;text-transform: initial;color: #000;text-align:center;display: inline-block;width: 100%;}
-
+.isMega .linkcover{position: absolute;left: 0px;right: 0px;height: 100%;width: 100%;display: block;}
+.isMega .morpho-m-thumb{position: relative;}
+.isMega.hasSubmenu  .mega-nav a{position: absolute;background: $(maincolor);color: #fff !important;padding:10px 10px !important;top:50%;-moz-transform: translateY(-50%);-ms-transform: translateY(-50%);-webkit-transform: translateY(-50%);-o-transform: translateY(-50%);transform: translateY(-50%);}
+.isMega.hasSubmenu  .mega-nav a.mega-next{z-index: 99;right: 0px;}
+.isMega.hasSubmenu  .mega-nav a.mega-prev{z-index: 99;left: 0px;}
+.isMega .mega-nav a.disable{display:none}
+.isMega.hasSubmenu > ul{position: relative}
 
 
 </head>
