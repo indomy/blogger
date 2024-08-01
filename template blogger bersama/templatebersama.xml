@@ -109,6 +109,12 @@ article{padding:0;overflow:hidden}
 .morpho-social .vine:before{content:"\f1ca"}
 .morpho-social .stack-overflow:before{content:"\f16c"}
 .morpho-social .linkedin:before{content:"\f0e1"}
+.morpho-social .dribbble:before{content:"\f17d"}
+.morpho-social .soundcloud:before{content:"\f1be"}
+.morpho-social .behance:before{content:"\f1b4"}
+.morpho-social .digg:before{content:"\f1a6"}
+.morpho-social .instagram:before{content:"\f16d"}
+.morpho-social .pinterest:before{content:"\f0d2"}
 
 
 </head>
