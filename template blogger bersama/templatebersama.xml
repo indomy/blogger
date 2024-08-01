@@ -67,6 +67,8 @@ ul li{list-style-type:square;padding:0 0 5px}
 ul ul,ol ol{padding:0}
 .post-body a:hover{color:$maincolor}
 .section,.widget,.widget ul{margin:0;padding:0}
+#navbar-iframe,.navbar,.Attribution,.post-author-widget,.post-author-social{height:0;visibility:hidden;display:none}
+.feed-links,.post-footer-line.post-footer-line-1,.post-footer-line.post-footer-line-2,.post-footer-line.post-footer-line-3{display:none}
 </head>
 <body expr:class='data:blog.pageType'>
 <div class='searchform-wrap search-transition-wrap'>
