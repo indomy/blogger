@@ -1060,6 +1060,10 @@ padding:3px;
 @media only screen and (max-width: 980px) {
 #featured ul li{width:100%;float:none;margin:0 auto 20px;clear:both}
 #main-wrapper,#sidebar-wrapper,#morpho-footer-cols{float:none;clear:both;width:100%;margin:0 auto}
+#main-wrapper{max-width:100%}
+#sidebar-wrapper{padding-top:20px}
+#morpho_menu,#nav{display:none}
+.selectnav{width:auto;color:#222;background:#f4f4f4;border:1px solid rgba(255,255,255,0.1);position:relative;border:0;padding:6px 10px!important;margin:5px 0;display:block;width:100%;max-width:200px}
 
 //Html
 </head>
