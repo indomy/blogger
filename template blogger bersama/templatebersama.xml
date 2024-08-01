@@ -2729,7 +2729,10 @@ head.appendChild(script);
       </b:widget>
       <b:widget id='AdSense2' locked='false' title='' type='AdSense'>
         <b:includable id='main'>  
-
+  <div class='widget-content'>
+    <data:adCode/>
+    <b:include name='quickedit'/>
+  </div>
 </body>
 
 </html>
