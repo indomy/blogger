@@ -2407,6 +2407,12 @@ $('.morpho-navigation').after(codei);
      </b:widget>
    </b:section>  
   <div id='ads-blog'>
+<b:section class='ad-bottom-widget' id='morpho-advert-3' maxwidgets='1' name='Bottom Ad [Post Page]' preferred='no' showaddelement='no'>
+  <b:widget id='HTML988' locked='true' title='Bottom Ad [Post Page]' type='HTML' version='1'>
+    <b:widget-settings>
+      <b:widget-setting name='content'><![CDATA[<a href="http://www.blossomtheme.com" target="_blank"><img style="width:100%;" src="https://2.bp.blogspot.com/-KB7QlE2yaQE/Wtjj4r0XnuI/AAAAAAAABOg/Iuqj_iOHlwEOMuLJx0H2usk6oQLIHoQqQCLcBGAs/s1600/BANNER.png"/></a>]]></b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
 
 </body>
 
