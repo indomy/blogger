@@ -913,6 +913,10 @@ article.single .tw-meta:not(.entry-tags) {
   top: 50%;
   margin-top: -20px;
 }
+.single-content .entry-media {
+  margin: 0 0 40px -100px;
+  text-align: left;
+}
 
 //Html
 </head>
