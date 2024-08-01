@@ -166,6 +166,13 @@ article{padding:0;overflow:hidden}
 .morpho-social #social a.dribbble:hover{color:#ea4c89;}
 .morpho-social #social a.flickr:before{content:"\f16e";}
 .morpho-social #social a.flickr:hover{color:#ff0084;}
+.morpho-social #social a.foursquare:before{content:"\f180";}
+.morpho-social #social a.foursquare:hover{color:#f94877;}
+.morpho-social #social a.behance:hover{color:#131418;}
+.morpho-social #social a.rss:hover{color:#f57d00;}
+.morpho-social #social a.stack-overflow:hover{color:#f57d00;}#e3dee0
+.morpho-social #social a.digg:hover{color:#131418;}
+.morpho-social #social a.delicious:hover{color:#0084ff;}
 
 
 </head>
