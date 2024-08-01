@@ -792,7 +792,13 @@ article{padding:0;overflow:hidden}
       <div class='date-header'>
         <span><data:post.dateHeader/></span>
       </div>
-    </b:if>  
+    </b:if> 
+
+    <div class='mobile-post-outer'>
+      <a expr:href='data:post.url'>
+        <h3 class='mobile-index-title entry-title' itemprop='name'>
+          <data:post.title/>
+        </h3> 
 </body>
 
 </html>
