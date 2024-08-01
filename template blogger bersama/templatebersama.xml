@@ -517,6 +517,14 @@ div.morpho-empty{width: 100%;text-align:center;background:rgb(236,239,241);box-s
 .morpho-post-author .fa-product-hunt{color: #da552f}
 .morpho-post-author .fa-hacker-news{color: #ff6600}
 .morpho-post-author .fa-soundcloud{color: #ff3300}
+.morpho-post-author .fa-rss, .morpho-post-author .fa-rss-square{color: #f57d00}
+.morpho-post-author .fa-whatsapp{color:#25D366}
+.morpho-post-author .fa-weixin{color: #09b83e}
+.morpho-post-author .fa-medium{color: #02b875}
+.morpho-post-author .fa-vine{color: #00b489}
+.morpho-post-author .fa-slack{color: #3aaf85}
+.morpho-post-author .fa-instagram{color: #e4405f}
+.morpho-post-author .fa-dribbble{color: #ea4c89}
 
 
 //Html
