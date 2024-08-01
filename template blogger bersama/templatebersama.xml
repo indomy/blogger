@@ -1106,6 +1106,10 @@ body .single-content{
     margin-left: 0px;
   }
 }
+@media only screen and (max-width: 620px) {
+.blsm-post-share li{width:50%}
+.related li{width:100%;margin-left:0}
+.morpho-article .article-content,.morpho-article .morpho-article-image{width: 100%; float: none;}
 //Html
 </head>
 <body expr:class='data:blog.pageType'>
