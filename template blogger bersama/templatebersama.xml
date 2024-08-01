@@ -1072,6 +1072,13 @@ padding:3px;
 }
 @media only screen and (max-width: 768px) {
 .morpho-social,.bottom-bar-
+social{float:none;width:100%;clear:both;overflow:hidden}
+.morpho-morpho-top-menu{float:none;width:100%;clear:both;margin-top:0;margin-bottom:10px;text-align:center}
+.morpho-social li,.bottom-bar-social li{display:inline-block;float:none}
+.selectnav{display:inline-block}
+#search-bar{display:none}
+.ops-404{width:80%!important}
+.title-404{font-size:160px!important}
 //Html
 </head>
 <body expr:class='data:blog.pageType'>
