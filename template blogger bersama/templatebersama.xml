@@ -690,7 +690,12 @@ select#BlogArchive1_ArchiveMenu{width:100%;padding:10px;}
 
 /*Featured Post*/
 .FeaturedPost.widget{padding: 0px;}
-
+.FeaturedPost img{display: none}
+.FeaturedPost .post-summary{background-size: cover;box-sizing: border-box;padding:20px 30px;background-position: center center; position:relative;background-color:#151515}
+.FeaturedPost .post-summary h3{padding-top:80%;z-index:2;position: relative;}
+.FeaturedPost .post-summary p{z-index:2;position: relative;}
+.FeaturedPost .post-summary a,.FeaturedPost .post-summary {color:#fff;}
+.Fe
 //Html
 </head>
 <body expr:class='data:blog.pageType'>
