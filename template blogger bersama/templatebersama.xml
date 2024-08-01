@@ -347,6 +347,40 @@
 </b:section>
 <div style='clear: both;'/>
       </div>
+      <b:if cond='data:blog.pageType == &quot;error_page&quot;'>
+<!--ERROR PAGE-->
+<style>
+#content-wrapper{display: none;}
+.error_page .padders{padding-top: 60px;padding-bottom: 60px;margin-bottom: 30px;}
+.error_page .slidebg h2{font-weight: 600;font-size: 36px;line-height:40px;}
+.error_page .padders form{display:block;max-width:800px;}
+.error_page .padders form .input-group{padding-right:30px;}
+.error_page .padders p{padding:20px 0px;}
+.error_page .padders form .input-group input{background:#fff;width:100%;height:50px;font-family:&quot;Josefin Sans&quot;;font-size:15px;border:1px solid #E5E6E1;padding:6px 12px;box-sizing:border-box;}
+.error_page .padders form .input-group .input-group-btn{position:relative;font-size:0;white-space:nowrap;}
+.error_page .padders button{height:50px;color:#fff;border:none;position:absolute;border-radius:0;left:0px;border-top-left-radius:0px;border-bottom-left-radius:0px;float:left;font-size:20px;padding:12px 30px 10px;}
+@media only screen and (max-width:880px){
+  .error_page .padders form .input-group input{width: 80%;}
+}
+@media only screen and (max-width:520px){
+  .error_page .slidebg h2{font-size:24px; line-height:28px;}
+  .error_page .padders{padding:20px 10px;}
+}
+</style>
+<div class='morpho-wrapper padders slidebg'>
+  <div class='body-row midalizer'>
+    <h2 class='emsg'>Oops! That page can&#8217;t be found.</h2>
+</div>
+</div>
+<div class='morpho-wrapper padders'>
+  <div class='body-row midalizer'>
+    <p>It looks like nothing was found at this location. Maybe try a search?</p>
+<form action='/search' class='searchform' method='get'><div class='input-group'> <input class='form-control' name='q' placeholder='Search ... ' type='text' value=''/> <span class='input-group-btn'> <button class='btn btn-primary'><i class='ion-ios-search'/></button> </span></div><div/></form>
+</div>
+</div>
+<!--ERROR PAGE-->
+      </b:if>
+<div style='clear: both;'/>
 </body>
 
 </html>
