@@ -961,6 +961,13 @@ article.single .tw-meta:not(.entry-tags) {
   margin-right: 0;
   margin-bottom: 10px;
 }
+.entry-share.vertical > a i {
+  margin-right: 0;
+}
+.entry-share > a i {
+  font-size: 14px;
+  margin-right: 10px;
+}
 
 //Html
 </head>
