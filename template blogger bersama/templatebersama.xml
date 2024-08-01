@@ -2325,6 +2325,12 @@ $('.morpho-navigation').after(codei);
               </script>
               </div>
             </b:if>
+            <b:if cond='data:content == &quot;[disqus][blogger]&quot;'>
+              <div class='morpho-tabs'>
+                <div data-tab='disqus'><div class='disqus-tab'><div id='disqus_thread'/></div></div>
+                <div data-tab='blogger'><div class='morpho-blogger-comment'/></div>
+              </div>
+            </b:if>
 
 </body>
 
