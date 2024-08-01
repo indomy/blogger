@@ -2741,7 +2741,8 @@ head.appendChild(script);
           <b:widget-setting name='homeTitle'>Home</b:widget-setting>
         </b:widget-settings>
         <b:includable id='main'>
-
+  <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
+  <div class='widget-content'>
 
 
 </body>
