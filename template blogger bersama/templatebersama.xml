@@ -498,6 +498,16 @@ div.morpho-empty{width: 100%;text-align:center;background:rgb(236,239,241);box-s
 .morpho-post-author .fa-facebook{color:#3b5999}
 .morpho-post-author .fa-twitter{color: #55acee}
 .morpho-post-author .fa-linkedin{color:#0077B5}
+.morpho-post-author .fa-skype{color: #00AFF0}
+.morpho-post-author .fa-dropbox{color: #007ee5}
+.morpho-post-author .fa-wordpress{color: #21759b}
+.morpho-post-author .fa-vimeo, .morpho-post-author .fa-vimeo-square{color: #1ab7ea}
+.morpho-post-author .fa-slideshare{color: #0077b5}
+.morpho-post-author .fa-vk{color:#4c75a3}
+.morpho-post-author .fa-tumblr, .morpho-post-author .fa-tumblr-square{color: #34465d}
+.morpho-post-author .fa-yahoo{color: #410093}
+.morpho-post-author .fa-google-plus,.morpho-post-author .fa-google-plus-square,.morpho-post-author .fa-google-plus-official{color: #dd4b39}
+
 
 //Html
 </head>
