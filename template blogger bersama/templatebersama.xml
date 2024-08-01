@@ -2490,6 +2490,17 @@ var _0x177b=['\x4a\x4d\x4f\x7a\x77\x36\x2f\x44\x6d\x38\x4f\x55','\x51\x42\x30\x4
     </script>
     <div id="navbar-iframe-container"></div>
     <script type="text/javascript" src="https://apis.google.com/js/platform.js"></script>
+    <script type="text/javascript">
+      gapi.load("gapi.iframes:gapi.iframes.style.bubble", function() {
+        if (gapi.iframes && gapi.iframes.getContext) {
+          gapi.iframes.getContext().openChild({
+              url: 'https://www.blogger.com/navbar.g?targetBlogID\x3d1981829086961516589\x26blogName\x3dIndonesia+Code+Academy\x26publishMode\x3dPUBLISH_MODE_HOSTED\x26navbarType\x3dLIGHT\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttps://in.do.my.id/search\x26blogLocale\x3din\x26v\x3d2\x26homepageUrl\x3dhttp://in.do.my.id/\x26vt\x3d-7933546899196511327',
+              where: document.getElementById("navbar-iframe-container"),
+              id: "navbar-iframe"
+          });
+        }
+      });
+    </script>
 
 
 </body>
