@@ -290,6 +290,11 @@
   <div class='morpho-search-btn'><span><a class='morpho-serch'/></span></div>
   </div>
       </div>
+      <div style='clear: both;'/> 
+<!--MAIN SLIDERS-->
+<b:if cond='data:blog.url != data:blog.homepageUrl'>
+  <style>.feturepostwidgetmorpho{display:none}</style>
+</b:if>
 </body>
 
 </html>
