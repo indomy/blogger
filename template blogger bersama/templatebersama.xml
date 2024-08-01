@@ -2421,6 +2421,13 @@ $('.morpho-navigation').after(codei);
     <span>  <data:content/></span>
   </div>
 
+  <!--b:include name='quickedit'/-->
+</b:includable>
+  </b:widget>
+</b:section>
+<div style='clear: both;'/>
+      </div>
+
 
 </body>
 
