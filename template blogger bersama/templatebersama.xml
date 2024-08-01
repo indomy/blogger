@@ -423,6 +423,14 @@ div.morpho-empty{width: 100%;text-align:center;background:rgb(236,239,241);box-s
 .morpho-first-article .article-meta i{font-size:15px;padding-top:1px;}
 .morpho-first-article .article-meta a:hover,.morpho-first-article .entry-title a:hover{color:$maincolor}
 
+/* Posts */
+.grid-item:hover .morpho-article .morpho-bgr{background: rgba(0, 0, 0, 0.5);opacity: 1;transition:.6s all ease;}
+.grid-item .post-cat{filter: blur(30px);opacity: 0;transition:.6s all ease;}
+.grid-item:hover .post-cat{opacity: 1;filter:blur(0px)}
+.grid-item .article-content{padding: 0px 15px;margin-top:-15%;position: relative;box-sizing: border-box;}
+.grid-item .article-inwhite{background: #fff;box-sizing: border-box;padding: 10px 20px;}
+.grid-item.secondary{padding-top:20px}
+
 </head>
 <body expr:class='data:blog.pageType'>
 <div class='searchform-wrap search-transition-wrap'>
