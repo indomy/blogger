@@ -507,6 +507,16 @@ div.morpho-empty{width: 100%;text-align:center;background:rgb(236,239,241);box-s
 .morpho-post-author .fa-tumblr, .morpho-post-author .fa-tumblr-square{color: #34465d}
 .morpho-post-author .fa-yahoo{color: #410093}
 .morpho-post-author .fa-google-plus,.morpho-post-author .fa-google-plus-square,.morpho-post-author .fa-google-plus-official{color: #dd4b39}
+.morpho-post-author .fa-pinterest-p,.morpho-post-author .fa-pinterest-square, .morpho-post-author .fa-pinterest{color: #bd081c}
+.morpho-post-author .fa-youtube, .morpho-post-author .fa-youtube-play, .morpho-post-author .fa-youtube-square{color: #cd201f}
+.morpho-post-author .fa-stumbleupon, .morpho-post-author .fa-stumbleupon-circle{color:#eb4924}
+.morpho-post-author .fa-reddit-alien, .morpho-post-author .fa-reddit-square, .morpho-post-author .fa-reddit{color: #ff5700}
+.morpho-post-author .fa-quora{color:#b92b27}
+.morpho-post-author .fa-yelp{color: #af0606}
+.morpho-post-author .fa-weibo{color:#df2029}
+.morpho-post-author .fa-product-hunt{color: #da552f}
+.morpho-post-author .fa-hacker-news{color: #ff6600}
+.morpho-post-author .fa-soundcloud{color: #ff3300}
 
 
 //Html
