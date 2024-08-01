@@ -1771,7 +1771,16 @@ select#BlogArchive1_ArchiveMenu{width:100%;padding:10px;}
 	  </div>
     </div>
     <div class='clearfix'/>
-<
+</div>
+
+  <div class='morpho-post-author'>
+<div class='box box-author'>
+  <div class='post-author'>
+    <div class='author-img'> 
+      <img alt='' class='avatar avatar-100 photo' expr:src='data:post.authorPhoto.url' height='100' width='100'/>
+    </div>
+
+
 
     
 
