@@ -2286,6 +2286,16 @@ $('.morpho-navigation').after(codei);
               //]]>
               </script>    
             </b:if>
+            <b:if cond='data:content == &quot;[disqus]&quot;'>
+              <div class='morpho-tabs'>
+                <div data-tab='disqus'><div class='disqus-tab'><div id='disqus_thread'/></div></div>
+              </div>
+              <script type='text/javascript'>
+              //<![CDATA[
+                $('#comments').remove();
+              //]]>
+              </script>
+            </b:if>
 
 </body>
 
