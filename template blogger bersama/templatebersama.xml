@@ -1110,6 +1110,8 @@ body .single-content{
 .blsm-post-share li{width:50%}
 .related li{width:100%;margin-left:0}
 .morpho-article .article-content,.morpho-article .morpho-article-image{width: 100%; float: none;}
+@media only screen and (max-width:520px){
+  .morphofeatured .morpho-hero .morphofeatured-thumb, .morphofeatured .blsm-img,.mrph .morpho-featured .morpho-secondary .morphofeatured-thumb, .mrph .morpho-featured .morpho-secondary .morpho-thumb{height: 300px !important;}
 //Html
 </head>
 <body expr:class='data:blog.pageType'>
