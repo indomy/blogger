@@ -1110,6 +1110,11 @@ li.hasSubmenu.isMega > ul{position: absolute;width: 100%;left:0px;right:0px;}
                 <b:if cond='data:top.showTimestamp'>
                   <data:top.timestampLabel/>
                   <b:if cond='data:post.url'>
+                  <meta expr:content='data:post.canonicalUrl' itemprop='url'/>
+                    <a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'><abbr class='published' expr:title='data:post.timestampISO8601' itemprop='datePublished'><data:post.timestamp/></abbr></a>
+                  </b:if>
+                </b:if>
+              </span>
 
 </body>
 
