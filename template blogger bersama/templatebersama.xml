@@ -901,6 +901,9 @@ article.single .tw-meta:not(.entry-tags) {
   align-items: center;
   flex-wrap: wrap;
 }
+.tw-meta, .entry-cats, .tw-pagination a, .feature-area .feature-title > p {
+  color: #999999;
+}
 
 //Html
 </head>
