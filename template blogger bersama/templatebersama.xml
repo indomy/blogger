@@ -1013,6 +1013,12 @@ article.single .entry-title,.single-large-media .entry-title{margin-top:-7px;max
 .entry-share a,.entry-share div{float:left}
 .entry-share > a{flex:1;height:40px;line-height:40px;color:#fff;background:#2d609b;text-align:center;font-size:10px;letter-spacing:0.2em;text-transform:uppercase;margin-right:10px}
 .entry-share a:hover{color:#fff}
+.entry-share > a i{font-size:14px;margin-right:10px}
+.entry-share > a.twitter{background:#00c3f3}
+.entry-share .share-toggle,.ext-share > *{width:40px;height:40px;line-height:40px;text-align:center;background-color:#c5c5c5;color:#fff;cursor:pointer;overflow:hidden;z-index:3}
+.entry-share .share-toggle i.ion-minus-round,.entry-share.expanded .share-toggle i.ion-plus-round{display:none}
+
+
 
 //Html
 </head>
