@@ -2798,6 +2798,9 @@ head.appendChild(script);
           <b:widget-settings>
             <b:widget-setting name='numItemsToShow'>3</b:widget-setting>
             <b:widget-setting name='showThumbnails'>true</b:widget-setting>
+            <b:widget-setting name='showSnippets'>true</b:widget-setting>
+            <b:widget-setting name='timeRange'>LAST_YEAR</b:widget-setting>
+          </b:widget-settings>            
 </body>
 
 </html>
