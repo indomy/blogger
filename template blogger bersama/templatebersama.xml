@@ -213,6 +213,16 @@ ul#morpho_menu{list-style:none;margin:0;padding:0;}
 #morpho-menu ul > li > ul > li:last-child{border:0}
 #morpho-menu ul li.hasSubmenu ul li:after,#morpho-menu ul li:last-child:after{display:none}
 #morpho-menu ul > li:hover > a{color:$maincolor}
+morpho-menu ul > li > ul > li a{font-size:14px;line-height:22px;display:block;color: #63636a;text-transform:uppercase;text-decoration:none;margin:0;padding:15px 25px;border-right:0;border:0}
+#morpho-menu ul > li.hasSubmenu > a:after{content:'\f107';font-family:FontAwesome;float:right;margin-left:5px;font-size:12px;}
+#morpho-menu ul > li:hover > ul,#morpho-menu ul > li > ul > li:hover > ul{opacity:1;visibility:visible;-webkit-transform:translateY(0);-moz-transform:translateY(0);transform:translateY(0)}
+#morpho-menu ul > li > ul > li.hasSubmenu > a:after{content:'\f105';float:right}
+#morpho-menu ul > li > ul > li a{
+  font-size:12px;  
+  text-transform: initial !important;
+  padding: 5px 15px;
+  font-weight: 600;
+}
 
 
 
