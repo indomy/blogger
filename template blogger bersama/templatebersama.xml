@@ -767,6 +767,22 @@ select#BlogArchive1_ArchiveMenu{width:100%;padding:10px;}
 .morpho-fcols-inner .PopularPosts ul li a,.morpho-fcols-inner,.morpho-fcols-inner .morpho-recent .morpho-recent-title a,.morpho-fcols-inner .morpho-comments a{color:#fff}
 .morpho-fcols-inner .PopularPosts .widget-content ul li{border-bottom:1px solid #333;border-top:0}
 .morpho-fcols-inner .morpho-recent .morpho-recent-item{border-top:0}
+.morpho-fcols-inner .PopularPosts .widget-content ul li:last-child{border:0}
+.morpho-fcols-inner .widget-content{padding:10px 0}
+#morpho-credit{background:#2d2d2d;color:#fff;font-weight:300;padding:15px 0}
+.morpho-cwrap{margin:0 auto;overflow:hidden}
+.morpho-credit_copyright a{color:#fff}
+.morpho-credit_copyright{text-align:left;display:inline-block;line-height:30px}
+#morpho-credit{background: #fff;border-top:1px solid $(lightcolor) ;color: #000;font-weight:400;text-transform:uppercase;}
+#morpho-credit a{color: #000}
+#morpho-footer{border-bottom: 0px}
+#morpho-credit a:hover{color: $maincolor;}
+#morpho-footer{border-top: 1px solid $(lightcolor) ;color: rgb(47, 47, 51) !important;}
+#morpho-footer a,form{color: rgb(47, 47, 51) !important;}
+form input[type='text'],#morpho-footer .contact-form-widget textarea{background: #fff;border:0px solid;border-bottom: 1px solid $(lightcolor);}
+form input[type='text']:hover,#morpho-footer .contact-form-widget textarea:hover{box-shadow: inset 0 1px 2px rgba(0,0,0,0);border-bottom: 1px solid $maincolor;}
+#morpho-footer .widget-content, #morpho-footer .contact-form-widget{padding: 15px 10px;box-sizing: border-box;}
+#morpho-footer .contact-form-widget p{display: table;height: 10px;}
 
 //Html
 </head>
