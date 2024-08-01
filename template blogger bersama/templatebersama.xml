@@ -2780,7 +2780,7 @@ head.appendChild(script);
           <b:widget-settings>
             <b:widget-setting name='content'><![CDATA[<span class="morpho-recent" data-no="5"></span>]]></b:widget-setting>
           </b:widget-settings>
-
+          <b:includable id='main'>
 
 
 
