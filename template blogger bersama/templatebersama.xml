@@ -724,6 +724,18 @@ select#BlogArchive1_ArchiveMenu{width:100%;padding:10px;}
 .morpho-comments .morpho-comment:last-child{padding-bottom:0}
 .morpho-comments .morpho-comment span{color:#4b4b55;display:block;line-height:1.2em;text-transform:morpho-footercase;font-size:12px;font-weight:400;overflow:hidden;background:$(lightcolor);height:38px;margin-top:5px;box-sizing:border-box;padding:5px 8px}
 .morpho-comment-thumb{width:55px;height:55px;float:left;margin:0 10px 0 0}
+.morpho-comments a{color:$maincolor;position:relative;font-size:13px;text-transform:capitalize;display:block;overflow:hidden;font-weight:400}
+.morpho-comments a:hover{color:$maincolor}
+.morpho-comments{list-style:none;padding:0}
+
+/* Label Widget */
+.cloud-label-widget-content{display:inline-block;text-align:left}
+.cloud-label-widget-content .label-size{display:inline-block;float:left;font-size:12px;line-height:normal;margin:0 5px 5px 0;opacity:1}
+.cloud-label-widget-content .label-size a{background:#efefef;color:#000;float:left;font-weight:400;line-height:100%;margin:0;padding:8px 10px;text-transform:uppercase;transition:all .6s;letter-spacing:1.5px;font-family:'Nunito', sans-serif;}
+.cloud-label-widget-content .label-size a:hover,.cloud-label-widget-content .label-size a:active{background:$maincolor;color:#fff}
+.cloud-label-widget-content .label-size .label-count{display:none}
+.list-label-widget-content li{display:block;padding:8px 0;border-bottom:1px solid #ececec;position:relative}
+.list-label-widget-content li a:before{content:'\203a';position:absolute;left:0;top:5px;font-size:22px;color:$maincolor}
 
 //Html
 </head>
