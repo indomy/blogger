@@ -814,6 +814,12 @@ form input[type='text']:hover,#morpho-footer .contact-form-widget textarea:hover
   border-radius-top-left: 10px;
 }
 
+.morpho-gallery-feature .feature-image,.morpho-gallery-feature .feature-image:before{
+  border-radius: 10px;
+}
+.morpho-gallery-post > div{
+  border-radius: 10px;
+}
 //Html
 </head>
 <body expr:class='data:blog.pageType'>
