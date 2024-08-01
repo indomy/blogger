@@ -284,6 +284,13 @@ li.hasSubmenu.isMega > ul{position: absolute;width: 100%;left:0px;right:0px;}
 90%,100%{-moz-transform:perspective(70px) rotateY(180deg);opacity:0;}
 }
 
+/* Search Button */
+.morpho-search-btn{position:absolute;right:0;top:0;z-index:99}
+.morpho-search-btn a.morpho-serch{cursor:pointer;display:block;height:60px;text-align:center;position:relative;right:0;top:0;width:50px;border-radius:0;box-sizing:border-box;color:#2f2f33}
+.morpho-search-btn a.morpho-serch:hover{color:$maincolor}
+.morpho-search-btn a.morpho-serch:before{color:#2f2f33;content: "\f4a5";font-family:Ionicons;font-size:20px;line-height:60px;}
+.morpho-search-btn span{list-style:none}
+
 
 </head>
 <body expr:class='data:blog.pageType'>
