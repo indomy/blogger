@@ -2960,6 +2960,15 @@ head.appendChild(script);
 <b:section class='sidebar morpho-widetize' id='sidebar(2)' name='SIDEBAR BOTTOM' preferred='yes'>
   <b:widget id='BlogArchive1' locked='false' title='Archive' type='BlogArchive' version='1'>
     <b:widget-settings>
+      <b:widget-setting name='showStyle'>MENU</b:widget-setting>
+      <b:widget-setting name='yearPattern'>yyyy</b:widget-setting>
+      <b:widget-setting name='showWeekEnd'>true</b:widget-setting>
+      <b:widget-setting name='monthPattern'>MMMM yyyy</b:widget-setting>
+      <b:widget-setting name='dayPattern'>MMM dd</b:widget-setting>
+      <b:widget-setting name='weekPattern'>MM/dd</b:widget-setting>
+      <b:widget-setting name='chronological'>false</b:widget-setting>
+      <b:widget-setting name='showPosts'>false</b:widget-setting>
+      <b:widget-setting name='frequency'>MONTHLY</b:widget-setting>
 </body>
 
 </html>
