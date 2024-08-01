@@ -1005,6 +1005,7 @@ article.single .entry-title,.single-large-media .entry-title{margin-top:-7px;max
 .single-large-media .tw-meta .entry-author a,article.single .tw-meta .entry-author a{color:#151515}
 .tw-meta .entry-author img{border-radius:5px;margin:0;position:absolute;left:0;top:50%;margin-top:-20px}
 .comment-count.tw-button{text-align:center;margin-left:auto}
+.single-content .entry-media{margin:0 0 40px -100px;text-align:left}
 
 
 //Html
