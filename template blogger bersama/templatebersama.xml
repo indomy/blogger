@@ -833,6 +833,11 @@ form input[type='text']:hover,#morpho-footer .contact-form-widget textarea:hover
 .morpho-post-image a div,.morpho-bgr{
   border-radius: 10px;
 }
+.article-inwhite{
+  border-radius: 10px;
+box-shadow: rgba(0,0,0,.15) 0 7px 7px;
+margin-bottom: 15px;
+}
 //Html
 </head>
 <body expr:class='data:blog.pageType'>
