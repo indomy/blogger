@@ -875,7 +875,11 @@ article{padding:0;overflow:hidden}
       <div class='post-outer'>
 
         <div class='post hentry uncustomized-post-template' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
-          <b:if cond='data:post.thumbnailUrl'>   
+          <b:if cond='data:post.thumbnailUrl'>  
+            <meta expr:content='data:post.thumbnailUrl' itemprop='image_url'/>
+          </b:if>
+          <meta expr:content='data:blog.blogId' itemprop='blogId'/>
+          <meta expr:content='data:post.id' itemprop='postId'/>
 </body>
 
 </html>
